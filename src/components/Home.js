@@ -479,7 +479,7 @@ function Home() {
               Let&apos;s connect! If interested feel free to get in touch. I&apos;d love to chat and
               discuss opportunities to work together.<br></br>
             </p>
-            <h4>With love,</h4>
+
             <br></br>
             <h1 className="signature">David Broida</h1>
             <div id="contact">
@@ -489,18 +489,6 @@ function Home() {
                     <th>NAME: </th>
                     <th>
                       <span>David Catanzano Broida</span>
-                    </th>
-                  </tr>
-                  <tr>
-                    <th>DOB: </th>
-                    <th>
-                      <span>March 3, 1991</span>
-                    </th>
-                  </tr>
-                  <tr>
-                    <th>AGE: </th>
-                    <th>
-                      <span>31</span>
                     </th>
                   </tr>
                   <tr>

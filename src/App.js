@@ -17,6 +17,7 @@ function App() {
 }
 
 window.onload = pageTransition;
+document.body.style.zoom = '80%';
 
 function pageTransition() {
   // button click activate button class and activate/ deactivate sections
@@ -77,6 +78,8 @@ function pageTransition() {
       }
     });
   });
+
+  f;
 
   function randomRGB() {
     const r = Math.floor(Math.random() * 256);

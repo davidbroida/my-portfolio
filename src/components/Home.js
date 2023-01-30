@@ -572,7 +572,7 @@ function Home() {
                   </p>
                   <img id="desktop" src="/musicMatch_mock.png"></img>
 
-                  <div className="btn-container-3">
+                  <div className="btn-container-5">
                     <a
                       href="https://musicmatchapp.herokuapp.com/"
                       className="main-btn"
@@ -770,7 +770,7 @@ function Home() {
                   </p>
                   <img id="desktop" src="/cryptocrunch_mock.png"></img>
 
-                  <div className="btn-container-3">
+                  <div className="btn-container-5">
                     <a
                       href="https://cryptocrunch2.herokuapp.com/ "
                       className="main-btn"
@@ -954,7 +954,7 @@ function Home() {
                     </p>
                     <img id="desktop" src="/jeopardy_mockup.png"></img>
 
-                    <div className="btn-container-3">
+                    <div className="btn-container-5">
                       <a
                         href="https://javascript-jeopardy.herokuapp.com/"
                         className="main-btn"
@@ -1102,7 +1102,7 @@ function Home() {
                 </span>
               </a>
             </div>
-            <div className="btn-container-3">
+            <div className="btn-container-6">
               <a
                 href="https://github.com/davidbroida/my-portfolio"
                 className="main-btn-2"

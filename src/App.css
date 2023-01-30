@@ -1244,7 +1244,25 @@ span.hey {
   width: 100%;
   justify-content: center;
   margin-top: 1rem;
+}
+
+.btn-container-5 {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-container-6 {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  justify-content: center;
   margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 3rem;
+
 }
 
 

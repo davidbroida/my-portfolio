@@ -1102,6 +1102,18 @@ function Home() {
                 </span>
               </a>
             </div>
+            <div className="btn-container-3">
+              <a
+                href="https://github.com/davidbroida/my-portfolio"
+                className="main-btn-2"
+                target="_blank"
+                rel="noreferrer">
+                <span className="btn-text">Github</span>
+                <span className="btn-icon-2">
+                  <i className="fa-brands fa-github"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </section>
       </div>

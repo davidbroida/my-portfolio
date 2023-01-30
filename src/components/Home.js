@@ -81,7 +81,7 @@ function Home() {
             {/* <h4>React · Node.js · Javascript · Python · SQL · APIs · HTML/CSS</h4> */}
             <h4>
               <span id="header" className="letter">
-                React <span> · </span>
+                React.js <span> · </span>
               </span>
               <span id="header" className="letter">
                 Node.js <span> · </span>
@@ -140,7 +140,7 @@ function Home() {
             <div className="left-about">
               <h4 className="about-header">David Catanzano Broida</h4>
               <p>
-                Full Stack Software Engineer, world traveler and Mandrin Chinese expert born and
+                Full Stack Software Engineer, world traveler and Mandarin Chinese expert born and
                 raised in Maine, USA currently living in Bali, Indonesia. <br></br>
                 <br></br>Recent graduate of Springboard&apos;s 800+ hour full stack software
                 engineering bootcamp. Proficient in React.js, Node.js, Python, Javascript, SQL,
@@ -324,8 +324,8 @@ function Home() {
                 Springboard Software Engineering Bootcamp <span> - Student</span>
               </h5>
               <p>
-                ReactJS | JavaScript | Python & Flask | SQL & PostgresQL | Node & Express | HTML &
-                CSS
+                React.js | JavaScript | Python & Flask | SQL & PostgresQL | Node.js & Express | HTML
+                & CSS
                 <br></br>
                 <br></br>
                 Completed over 1000 hours of hands-on course material with 1:1 industry expert
@@ -406,7 +406,7 @@ function Home() {
               </div>
               <p>
                 Created a full-stack web app which helps expedite and expand the discovery of new
-                music. Built with a React JS front-end and a Node.js back-end, the app allows users
+                music. Built with a React.js front-end and a Node.js back-end, the app allows users
                 to search for music, create playlists and discover new tunes based on
                 recommendations from Spotify’s powerful web API.
               </p>
@@ -438,11 +438,11 @@ function Home() {
                 <img id="logo" src="/javascript_logo.png"></img>
               </div>
               <p>
-                Game of Jeopardy made with pure Javascript pulling data from the JService.io API.
-                The architecture and logic behind the Javascript codebase is slightly more
-                complicated than one may expect. I chose to include it as a portfolio piece because
-                it was a project that I have completed twice now. Once as a challenge for
-                Springboard and once as a fun practice project for myself.
+                A remake of the classic game of Jeopardy made with pure Javascript pulling data from
+                the JService API. The architecture and logic behind the Javascript codebase is
+                slightly more complicated than one may expect. I chose to include it as a portfolio
+                piece because it was a project that I have completed twice now. Once as a challenge
+                for Springboard and once as a fun practice project for myself.
               </p>
             </div>
             <div className="page-desc">
@@ -458,7 +458,7 @@ function Home() {
               <div className="this-website-desc">
                 <p>
                   The website you are on right now. I created this site from scratch using HMTL CSS
-                  and Javascript in React.JS. I built the site from scatch so that it can serve as
+                  and Javascript in React.js. I built the site from scatch so that it can serve as
                   an ongoing project which I plan to continually improve and use to learn/ practice.
                 </p>
               </div>
@@ -476,8 +476,8 @@ function Home() {
           </div>
           <div className="page-desc">
             <p>
-              Let&apos;s connect! If interested feel free to get in touch with me I&apos;d love to
-              chat and discuss opportunities to work together.<br></br>
+              Let&apos;s connect! If interested feel free to get in touch. I&apos;d love to chat and
+              discuss opportunities to work together.<br></br>
             </p>
             <h4>With love,</h4>
             <br></br>
@@ -564,11 +564,11 @@ function Home() {
 
                   <p>
                     Created a full-stack web app which helps expedite and expand the discovery of
-                    new music. Built with a React JS front-end and a Node.js back-end, the app
+                    new music. Built with a React.js front-end and a Node.js back-end, the app
                     allows users to search for music, create playlists and discover new tunes based
                     on recommendations from Spotify’s powerful web API. I&apos;m proud of this
-                    project because of it&apos;s clean, React architecture and codebase along with
-                    having user authorization and authentication for signup and login.
+                    project because of it&apos;s clean, React.js architecture and codebase along
+                    with having user authorization and authentication for signup and login.
                   </p>
                   <img id="desktop" src="/musicMatch_mock.png"></img>
 
@@ -603,7 +603,7 @@ function Home() {
                       <img id="logo5" src="/react_logo.png"></img>
                       <img id="logo5" src="/nodejs_logo2.png"></img>
                       <p className="small-text">
-                        - Built With<br></br>React & Node.js
+                        - Built With<br></br>React.js & Node.js
                       </p>
                     </div>
                   </div>
@@ -647,9 +647,9 @@ function Home() {
                     Application <span>Architecture</span>
                   </h4>
                   <p className="code-desc">
-                    This is an example of the React code that was used to create the overall
-                    architecture of the app. The code also demonstrates a basic use of React hooks
-                    and JSON Web Tokens to manage state (the React hooks) authorization and
+                    This is an example of the React.js code that was used to create the overall
+                    architecture of the app. The code also demonstrates basic use of React hooks and
+                    JSON Web Tokens to manage state (the React hooks) authorization and
                     authentication (JSON Web Token). This made it relatively easy for me to write
                     the code which allows people to sign up, sign in and log out of the application.
                     This type of feature also requires some backend knowledge, as user information
@@ -677,11 +677,11 @@ function Home() {
                   </h4>
                   <p className="code-desc">
                     A more in-depth look at the code that was used to allow for authorization and
-                    authentication (signup and login) using JSON Web Token and middleware which
+                    authentication (sign up and login) using JSON Web Token and middleware which
                     connects the application to the database. If a token is provided it is verified
-                    and if valid stored. If no token is provided or the provided token is invalid an
-                    error is thrown. The code also insures that certain pages can only be viewded by
-                    users who are logged in and that certain pages can only be viewed by Admins.
+                    and if valid, stored. If no token is provided or the provided token is invalid
+                    an error is thrown. The code also insures that certain pages can only be viewed
+                    by users who are logged in and that certain pages can only be viewed by Admins.
                   </p>
                 </div>
                 <div className="project-desc-right">
@@ -704,11 +704,11 @@ function Home() {
                     Spotify Web <span>API Integration</span>
                   </h4>
                   <p className="code-desc">
-                    Here&apos; s an exmaple of the code that was used to integrate with the Spotify
-                    Web API and call it. Users must first verify that they have a Spotify account
-                    and then are able to continue using the app. The API works off of simple RESTful
+                    Here&apos; s an exmaple of the code that was used to integrate the app with the
+                    Spotify Web API. Users must first verify that they have a Spotify account and
+                    then they are able to begin using the app. The API works off of simple RESTful
                     API principles (GET, PUT, POST and DELETE). When a request is made the Spotify
-                    Web API returns JSON data about music artists, albums, and tracks from the API
+                    Web API returns JSON data about music artists, albums and tracks from the API
                     which is then used to create the client-facing front-end that users interact
                     with.
                   </p>
@@ -731,7 +731,7 @@ function Home() {
                     A more in-depth look at code that utilizes React hooks and web tokens for
                     authentication and authorization. Here the useEffect hook is used to set the
                     access token and a refresh token which can be used after the initial access
-                    token has expired. Simply put this creates a better, more seamless user
+                    token has expired. Simply put, this creates a better, more seamless user
                     experience because clients are not forced to re-login to the app multiple times.
                   </p>
                 </div>
@@ -765,8 +765,8 @@ function Home() {
                   <p>
                     Designed and built a cryptocurrency web app with a Python/Flask back-end and a
                     JavaScript front-end. The app includes authentication and authorization, a live
-                    news feed and dynamic charts from Apex Charts plugged into and powered by the
-                    CryptoCompare API.
+                    news feed and dynamic charts from Apex Charts which are plugged into and powered
+                    by the CryptoCompare API.
                   </p>
                   <img id="desktop" src="/cryptocrunch_mock.png"></img>
 
@@ -870,13 +870,13 @@ function Home() {
               <div className="project-desc-container">
                 <div className="project-desc-left">
                   <h4 className="desc-title2">
-                    Auth & Hashing w/ <span>Bcrypt</span>
+                    Authentication &<span> Hashing w/ Bcrypt</span>
                   </h4>
                   <p className="code-desc">
-                    Passwords protected and saved into the database using cryptographic hashing with
-                    Bcrypt for added security. This example code is used to both create the hashed
-                    password and then authenticate any input password matches one of the hashed
-                    passwords that is saved in the database.
+                    Passwords are protected and saved into the database using cryptographic hashing
+                    with Bcrypt for added security. This example code is used to both create the
+                    hashed password and then authenticate that any input password matches one of the
+                    hashed passwords which is saved in the database.
                   </p>
                 </div>
                 <div className="project-desc-right">
@@ -911,8 +911,10 @@ function Home() {
               </div>
               <div className="project-desc-container">
                 <div className="project-desc-left">
-                  <h4 className="desc-title2">Unit </h4>
-                  <span>Testing</span>
+                  <h4 className="desc-title2">
+                    Unit
+                    <span> Testing</span>
+                  </h4>
                   <p className="code-desc">
                     One of several unit tests that I created while building the application to make
                     sure that everything didn&apos;t just appear to work but worked when presented
@@ -948,8 +950,8 @@ function Home() {
                     </h4>
 
                     <p>
-                      Recreated the classic game of Jeopardy using purely vanilla Javascript HTML
-                      and CSS. Original project was a timed challenge via. Springboard which I
+                      Recreated the classic game of Jeopardy using purely vanilla Javascript, HTML
+                      and CSS. The original project was a timed challenge via. Springboard which I
                       redesigned recently to fix bugs, smooth out API calls and re-style with CSS.
                     </p>
                     <img id="desktop" src="/jeopardy_mockup.png"></img>
@@ -984,7 +986,7 @@ function Home() {
                       <div className="project-item">
                         <img id="logo4" src="/javascript_logo.png"></img>
                         <p className="small-text">
-                          - Vanilla<br></br>Javascript
+                          - App Made With<br></br>Purely Javascript
                         </p>
                       </div>
                     </div>
@@ -1007,7 +1009,7 @@ function Home() {
                     </div>
                     <div className="about-item">
                       <div className="about-text">
-                        <p className="large-text">O.O.P</p>
+                        <p className="large-text">O.O.P.</p>
                         <p className="small-text">
                           - Object Oriented Programming<br></br>
                           <br></br>
@@ -1031,7 +1033,7 @@ function Home() {
                     </h4>
                     <p className="code-desc">
                       An exmaple of the object oriented Javascript code that was used to create a
-                      class object which the entire game ran off of. The constructor includes
+                      class object which the entire game runs off of. The constructor includes
                       elements and options. Elements are all of the HTML elements that are
                       manipulated during gameplay and the options are things such as the categories,
                       clues and score.
@@ -1055,8 +1057,8 @@ function Home() {
                       Simple example of an API call to the JService API. Data is fetched and a new
                       object is created with all of the resolved data. The data is then simplified
                       further into an object of nested objects (clues) which are used to render the
-                      HTML gameboard and corresponding data (ids, answers, values) for each datacell
-                      in the Jeopardy gameboard.
+                      HTML gameboard and corresponding data (IDs, answers and values) for each
+                      datacell in the Jeopardy gameboard.
                     </p>
                   </div>
                   <div className="project-desc-right">
@@ -1087,11 +1089,11 @@ function Home() {
                 <img id="logo" src="/flask_logo_white.png"></img> */}
               </div>
               <p>
-                I designed and built this website from scratch using HTML, CSS and vanilla
-                Javascript. At the moment there are some issues that I think could easily be solved
-                using state so in the near future my plan is to refactor the code and turn it into a
-                true ReactJS app. This should not only be an easy fix to some of the bugs, but
-                should also serve to highlight my skills as a React Developer.
+                I designed and built this website from scratch using HTML, CSS and Javascript. At
+                the moment there are some issues that I think could easily be solved using state so
+                in the near future my plan is to refactor the code and turn it into a true React.js
+                app. This should not only be an easy fix to some of the bugs, but should also serve
+                to highlight my skills as a React.js Developer.
               </p>
             </div>
             <div className="btn-container-3">

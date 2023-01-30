@@ -108,7 +108,7 @@ function Home() {
             <p>
               I&apos;m a recent graduate from Springboard&apos;s 800+ hour full-stack software
               engineering bootcamp with international sales experience and fluent Mandarin Chinese.
-              Currently I am working ass a freelance front-end developer continuing to practice my
+              Currently I am working as a freelance front-end developer continuing to practice my
               skills while looking for full-time employment opportunities.
             </p>
             <div className="btn-container">

@@ -492,7 +492,7 @@ function Home() {
                     </th>
                   </tr>
                   <tr>
-                    <th>ADDRESS: </th>
+                    <th>ADDRESS:</th>
                     <th>
                       <span>111 Frost Hill Rd. Portland, ME USA</span>
                     </th>

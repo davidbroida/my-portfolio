@@ -17,7 +17,7 @@ function App() {
 }
 
 window.onload = pageTransition;
-document.body.style.zoom = '80%';
+// document.body.style.zoom = '80%';
 
 function pageTransition() {
   // button click activate button class and activate/ deactivate sections

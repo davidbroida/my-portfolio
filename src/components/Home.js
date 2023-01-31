@@ -56,7 +56,7 @@ function Home() {
             <br></br>
             <div className="btn-container-prof">
               <a
-                href="https://file.io/GyE5ya5D7ixf"
+                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
                 className="main-btn"
                 target="_blank"
                 rel="noreferrer">
@@ -66,10 +66,6 @@ function Home() {
                 </span>
               </a>
             </div>
-
-            {/* <a className="btn-download-2" href="https://file.io/GyE5ya5D7ixf">
-              DOWNLOAD CV
-            </a> */}
           </div>
           <div id="home" className="right-header page-header section sec1 about active">
             <h2>
@@ -113,7 +109,7 @@ function Home() {
             </p>
             <div className="btn-container">
               <a
-                href="https://file.io/GyE5ya5D7ixf"
+                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
                 className="main-btn"
                 target="_blank"
                 rel="noreferrer">
@@ -123,9 +119,6 @@ function Home() {
                 </span>
               </a>
             </div>
-            {/* <a className="btn-download" href="https://file.io/GyE5ya5D7ixf">
-              DOWNLOAD CV
-            </a> */}
           </div>
         </section>
         <section id="about" className="section sec2 about">
@@ -393,22 +386,21 @@ function Home() {
                 <span className="bg-text2">Portfolio</span>
               </h2>
             </div>
-
             <div className="page-desc">
               <div className="project-button">
                 <div className="navlink">
-                  <h2 className="musicmatch">MusicMatch App</h2>
+                  <h2 className="jeopardy">JavaScript Jeopardy</h2>
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo6" src="/react_logo.png"></img>
-                <img id="logo6" src="/nodejs_logo2.png"></img>
+                <img id="logo" src="/javascript_logo.png"></img>
               </div>
               <p>
-                Created a full-stack web app which helps expedite and expand the discovery of new
-                music. Built with a React.js front-end and a Node.js back-end, the app allows users
-                to search for music, create playlists and discover new tunes based on
-                recommendations from Spotify’s powerful web API.
+                A remake of the classic game of Jeopardy made with pure Javascript pulling data from
+                the JService API. The architecture and logic behind the Javascript codebase is
+                slightly more complicated than one may expect. I chose to include it as a portfolio
+                piece because it was a project that I have completed twice now. Once as a challenge
+                for Springboard and once as a fun practice project for myself.
               </p>
             </div>
             <div className="page-desc">
@@ -431,20 +423,21 @@ function Home() {
             <div className="page-desc">
               <div className="project-button">
                 <div className="navlink">
-                  <h2 className="jeopardy">JavaScript Jeopardy</h2>
+                  <h2 className="musicmatch">MusicMatch App</h2>
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo" src="/javascript_logo.png"></img>
+                <img id="logo6" src="/react_logo.png"></img>
+                <img id="logo6" src="/nodejs_logo2.png"></img>
               </div>
               <p>
-                A remake of the classic game of Jeopardy made with pure Javascript pulling data from
-                the JService API. The architecture and logic behind the Javascript codebase is
-                slightly more complicated than one may expect. I chose to include it as a portfolio
-                piece because it was a project that I have completed twice now. Once as a challenge
-                for Springboard and once as a fun practice project for myself.
+                Created a full-stack web app which helps expedite and expand the discovery of new
+                music. Built with a React.js front-end and a Node.js back-end, the app allows users
+                to search for music, create playlists and discover new tunes based on
+                recommendations from Spotify’s powerful web API.
               </p>
             </div>
+
             <div className="page-desc">
               <div className="project-button">
                 <div className="navlink">
@@ -521,7 +514,7 @@ function Home() {
             <br></br>
             <div className="btn-container-2">
               <a
-                href="https://www.file.io/eh6N/download/GyE5ya5D7ixf"
+                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
                 download="david_broida_resume_2023.pdf"
                 className="main-btn"
                 target="_blank"

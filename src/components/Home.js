@@ -22,9 +22,9 @@ function Home() {
     });
   }
 
-  function alertJoke() {
-    return alert('You are already on this website!');
-  }
+  // function alertJoke() {
+  //   return alert('You are already on this website!');
+  // }
 
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -1078,7 +1078,7 @@ function Home() {
               </p>
             </div>
             <div className="btn-container-3">
-              <a onClick={alertJoke} className="main-btn">
+              <a onClick={callAlert} className="main-btn">
                 <span className="btn-text">Visit Website</span>
                 <span className="btn-icon">
                   <i className="fa-solid fa-desktop"></i>
@@ -1118,6 +1118,10 @@ function Home() {
       </div>
     </div>
   );
+}
+
+function callAlert() {
+  alert('Suprise! You are already on this website.');
 }
 
 export default Home;

@@ -105,7 +105,7 @@ window.alert = function (message, timeout = null) {
     `
   position:fixed;
   background-color:orange;
- font-weight:bold;
+  font-weight:bold;
   color: black;
   top: 25%;
   left:50%;

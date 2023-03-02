@@ -42,38 +42,38 @@ function Home() {
     for (let letter of letters) {
       letter.style.color = randomRGB();
     }
-  }, 1000);
+  }, 2000);
 
   return (
     <div>
       <div className="main-content">
-        <section id="home" className="section sec1 main-header active">
-          <div className="left-header page-header ">
-            <div className="header-shape active"></div>
-            <div className="prof-pic active">
+        <section id="home" className="section page-header sec1 main-header active">
+          {/* <div className="left-header page-header "> */}
+          {/* <div className="header-shape active"></div> */}
+          {/* <div className="prof-pic active">
               <img id="profile-pic-img" src="profile-pic.png" className="active"></img>
-            </div>
-            <br></br>
-            <div className="btn-container-prof">
-              <a
-                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
-                className="main-btn"
-                target="_blank"
-                rel="noreferrer">
-                <span className="btn-text">Download CV</span>
-                <span className="btn-icon">
-                  <i className="fas fa-download"></i>
-                </span>
-              </a>
-            </div>
+            </div> */}
+          <br></br>
+          <div className="btn-container-prof">
+            <a
+              href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
+              className="main-btn"
+              target="_blank"
+              rel="noreferrer">
+              <span className="btn-text">Download CV</span>
+              <span className="btn-icon">
+                <i className="fas fa-download"></i>
+              </span>
+            </a>
           </div>
+          {/* </div> */}
           <div id="home" className="right-header page-header section sec1 about active">
             <h2>
-              <span className="hey">Hey, I&#39;m </span>
-              David<span className="hey">...</span>
+              {/* <span className="hey">Hey, I&#39;m </span>
+              David<span className="hey">...</span> */}
+              David <span className="bg-text">Broida</span>
             </h2>
-            <h1 className="jeopardy-title"></h1>
-            <h3 className="fullstack">Full Stack Web Developer</h3>
+            <h3>Full Stack Web Developer</h3>
             {/* <h4>React · Node.js · Javascript · Python · SQL · APIs · HTML/CSS</h4> */}
             <h4>
               <span id="header" className="letter">
@@ -102,14 +102,17 @@ function Home() {
               </span>
             </h4>
             <p>
-              I&apos;m a recent graduate from Springboard&apos;s 800+ hour full-stack software
-              engineering bootcamp with international sales experience and fluent Mandarin Chinese.
-              Currently I am working as a freelance front-end developer continuing to practice my
-              skills while looking for full-time employment opportunities.
+              Fullstack Software Engineer and recent graduate from Springboard&apos;s Fullstack
+              Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
+              Python, SQL, APIs and am in the process of learning how to write Solidity ERC20 and
+              ERC721 smart contracts on the Ethereum blockchain. I also have international sales
+              experience and can speak fluent Mandarin Chinese. Currently I am working for Hexmount
+              LLC as a Software Engineer Intern continuing to practice my skills while looking for
+              additional full-time employment opportunities.
             </p>
             <div className="btn-container">
               <a
-                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
                 className="main-btn"
                 target="_blank"
                 rel="noreferrer">
@@ -121,8 +124,58 @@ function Home() {
             </div>
           </div>
         </section>
+        <section id="home" className="section2 section page-header main-header active">
+          <div className="about-container">
+            <div className="left-about">
+              <div>
+                <div className="prof-pic active">
+                  <img id="profile-pic-img" src="polaroid_headshop.png" className="active"></img>
+                </div>
+              </div>
+            </div>
+            <div className="right-about">
+              <div className="homepage-about">
+                <div className="links">
+                  <p>
+                    <b>
+                      <i id="linkedin-icn" className="fa-brands fa-linkedin-in">
+                        {' '}
+                      </i>
+                      <a
+                        href="https://www.linkedin.com/in/davidbroida/"
+                        target="_blank"
+                        rel="noreferrer">
+                        {' '}
+                        LinkedIn
+                      </a>
+                    </b>
+                  </p>
+                  <p>
+                    <b>
+                      <i id="github-icn" className="fa-brands fa-github"></i>{' '}
+                      <a href="https://github.com/davidbroida" target="_blank" rel="noreferrer">
+                        GitHub
+                      </a>
+                    </b>
+                  </p>
+                  <p>
+                    <b>
+                      <i id="gmail-icn" className="fa-sharp fa-solid fa-g"></i>{' '}
+                      <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=davidcbroida@gmail.com"
+                        target="_blank"
+                        rel="noreferrer">
+                        Gmail
+                      </a>
+                    </b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="about" className="section sec2 about">
-          <div className="main-title">
+          <div className="main-title-2">
             <h2>
               About <span className="bg-text">Me</span>
               <span className="bg-text2">About</span>
@@ -131,7 +184,9 @@ function Home() {
 
           <div className="about-container">
             <div className="left-about">
-              <h4 className="about-header">David Catanzano Broida</h4>
+              <h4 className="about-header">
+                David <span className="bg-text">Broida</span>
+              </h4>
               <p>
                 Full Stack Software Engineer, world traveler and Mandarin Chinese expert born and
                 raised in Maine, USA currently living in Bali, Indonesia. <br></br>
@@ -144,7 +199,7 @@ function Home() {
               </p>
               <div className="btn-container-3">
                 <a
-                  href="https://file.io/GyE5ya5D7ixf"
+                  href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
                   className="main-btn"
                   target="_blank"
                   rel="noreferrer">
@@ -273,9 +328,26 @@ function Home() {
               <div className="timeline-icon">
                 <i className="fas fa-briefcase"></i>
               </div>
+              <p className="timeline-duration">Feb 2023 - present</p>
+              <h5>
+                Software Engineer Intern <span> - Hexmount LLC- London, UK (Remote)</span>
+                <p></p>
+              </h5>
+              <p>
+                Working alongside the CEO and Founder on a cryptocurrency monitoring application
+                with a React.js frontend and a Node.js backend and Alchemy. Also working on a second
+                ERC721 NFT project, developing the frontend with on chain staking functions gaining
+                exposure to the project development lifecycle and writing Solidity ERC20 and ERC721
+                smart contracts on the Ethereum blockchain.
+              </p>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-icon">
+                <i className="fas fa-briefcase"></i>
+              </div>
               <p className="timeline-duration">2022 - present</p>
               <h5>
-                Web Developer <span> - Freelance</span>
+                Web Developer <span> - Freelance (Remote)</span>
                 <p></p>
               </h5>
               <p>
@@ -287,13 +359,15 @@ function Home() {
                 after graduating from Springboard.
               </p>
             </div>
+
             <div className="timeline-item">
               <div className="timeline-icon">
                 <i className="fas fa-briefcase"></i>
               </div>
               <p className="timeline-duration">Apr 2014 - Jan 2016</p>
               <h5>
-                Asia & America&apos;s Business Development Sales Coordinator<span> - (USA)</span>
+                Asia & America&apos;s Business Development Sales Coordinator
+                <span> - KICTeam Inc. (USA)</span>
               </h5>
               <p>
                 Identified, developed and secured strategic business relationships with executive
@@ -468,13 +542,13 @@ function Home() {
             </div>
           </div>
           <div className="page-desc">
-            <p>
+            <h1 className="signature">
               Let&apos;s connect! If interested feel free to get in touch. I&apos;d love to chat and
               discuss opportunities to work together.<br></br>
-            </p>
+            </h1>
 
             <br></br>
-            <h1 className="signature">David Broida</h1>
+            {/* <h1 className="signature">...</h1> */}
             <div id="contact">
               <table className="contact-table">
                 <tbody>
@@ -487,7 +561,7 @@ function Home() {
                   <tr>
                     <th>ADDRESS:</th>
                     <th>
-                      <span>111 Frost Hill Rd. Portland, ME USA</span>
+                      <span>Portland, ME USA</span>
                     </th>
                   </tr>
                   <tr>
@@ -514,7 +588,7 @@ function Home() {
             <br></br>
             <div className="btn-container-2">
               <a
-                href="https://drive.google.com/file/d/1bT1eshWSyxuzuLsKrIfRadakZvzi8luI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
                 download="david_broida_resume_2023.pdf"
                 className="main-btn"
                 target="_blank"
@@ -527,6 +601,192 @@ function Home() {
             </div>
           </div>
         </section>
+        <section id="cryptocrunch" className="section sec5 cryptocrunch">
+          <div className="cryptocrunch">
+            <div className="main-title">
+              <h2>
+                Crypto <span className="bg-text">crunch</span>
+                <span className="bg-text2">cryptocrunch</span>
+              </h2>
+            </div>
+            <div className="project-container">
+              <div className="about-container">
+                <div className="left-about2">
+                  <h4 className="about-header">
+                    CryptoCrunch App:<br></br> Project Overview
+                  </h4>
+
+                  <p>
+                    Designed and built a cryptocurrency web app with a Python/Flask back-end and a
+                    JavaScript front-end. The app includes authentication and authorization, a live
+                    news feed and dynamic charts from Apex Charts which are plugged into and powered
+                    by the CryptoCompare API.
+                  </p>
+                  <img id="desktop" src="/cryptocrunch_mock.png"></img>
+
+                  <div className="btn-container-5">
+                    <a
+                      href="https://cryptocrunch2.herokuapp.com/ "
+                      className="main-btn"
+                      target="_blank"
+                      rel="noreferrer">
+                      <span className="btn-text">Visit Website</span>
+                      <span className="btn-icon">
+                        <i className="fa-solid fa-desktop"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div className="btn-container-4">
+                    <a
+                      href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"
+                      className="main-btn-2"
+                      target="_blank"
+                      rel="noreferrer">
+                      <span className="btn-text">Github</span>
+                      <span className="btn-icon-2">
+                        <i className="fa-brands fa-github"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div className="right-about">
+                  <div className="about-item">
+                    <div className="project-item">
+                      <img id="logo5" src="/javascript_logo.png"></img>
+                      <img id="logo5" src="/python_logo.png"></img>
+                      <img id="logo5" src="/flask_logo_white.png"></img>
+                      <p className="small-text">
+                        - Built With<br></br>Javascript, Python & the Flask Framework
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-item">
+                    <div className="project-item4">
+                      <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
+                      <p className="small-text">
+                        - JSON Web Token<br></br>Authorization
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-item">
+                    <div className="project-item2">
+                      <img id="logo3" src="/cryptocomparelogo.png"></img>
+                      <p className="small-text">
+                        - Cryptocompare<br></br> API Integration
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-item">
+                    <div className="project-item3">
+                      <img id="logo2" src="/apex-charts-logo.png" />
+                      <p className="small-text">
+                        - Live charting<br></br>from Apex Charts
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4 className="desc-title-3">
+                Example
+                <span className="letter"> </span>
+                <span className="letter">C</span>
+                <span className="letter">O</span>
+                <span className="letter">D</span>
+                <span className="letter">E</span>
+              </h4>
+              <div className="project-desc-container2">
+                <div className="project-desc-left">
+                  <h4 className="desc-title2">
+                    Python Routing For <span>API Calls</span>
+                  </h4>
+                  <p className="code-desc">
+                    This is an exmaple of the Python code that was used to create some of the
+                    routing for the application and connect to the database based off of different
+                    URLs and PUT/ DELETE requests. The first three routes are used to convert
+                    database data into JSON that is used to build and power the application. The
+                    second two routes are used for adding and deleting favorites to the database
+                    table when a cryptocurrency is favorited by a user.
+                  </p>
+                </div>
+                <div className="project-desc-right">
+                  <div className="desc-img-container">
+                    <img
+                      id="img5"
+                      className="proj-desc-img"
+                      src="API_CryptoCrunch_screenshot.png"
+                    />
+                  </div>
+                  <div className="img5 proj-desc-img-zoomed">
+                    <img src="API_CryptoCrunch_screenshot.png" />
+                  </div>
+                </div>
+              </div>
+              <div className="project-desc-container">
+                <div className="project-desc-left">
+                  <h4 className="desc-title2">
+                    Authentication &<span> Hashing w/ Bcrypt</span>
+                  </h4>
+                  <p className="code-desc">
+                    Passwords are protected and saved into the database using cryptographic hashing
+                    with Bcrypt for added security. This example code is used to both create the
+                    hashed password and then authenticate that any input password matches one of the
+                    hashed passwords which is saved in the database.
+                  </p>
+                </div>
+                <div className="project-desc-right">
+                  <div className="desc-img-container">
+                    <img id="img6" className="proj-desc-img" src="/bcrypt_auth_screenshot.png" />
+                  </div>
+                  <div className="img6 proj-desc-img-zoomed">
+                    <img src="/bcrypt_auth_screenshot.png" />
+                  </div>
+                </div>
+              </div>
+              <div className="project-desc-container">
+                <div className="project-desc-left">
+                  <h4 className="desc-title2">
+                    Live
+                    <span> Charting</span>
+                  </h4>
+                  <p className="code-desc">
+                    An example of some simple code that was used to connect JSON responses from the
+                    CryptoCompare API and display the data in the form of classic, financial
+                    candlestick charts from Apex Charts.
+                  </p>
+                </div>
+                <div className="project-desc-right">
+                  <div className="desc-img-container">
+                    <img id="img7" className="proj-desc-img" src="/apexcharts_screenshot.png" />
+                  </div>
+                  <div className="img7 proj-desc-img-zoomed">
+                    <img src="/apexcharts_screenshot.png" />
+                  </div>
+                </div>
+              </div>
+              <div className="project-desc-container">
+                <div className="project-desc-left">
+                  <h4 className="desc-title2">
+                    Unit
+                    <span> Testing</span>
+                  </h4>
+                  <p className="code-desc">
+                    One of several unit tests that I created while building the application to make
+                    sure that everything didn&apos;t just appear to work but worked when presented
+                    with multiple different edge cases.
+                  </p>
+                </div>
+                <div className="project-desc-right">
+                  <div className="desc-img-container">
+                    <img id="img8" className="proj-desc-img" src="/testing_screenshot.png" />
+                  </div>
+                  <div className="img8 proj-desc-img-zoomed">
+                    <img src="/testing_screenshot.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="musicmatch" className="section sec6 musicmatch">
           <div>
             <div className="main-title">
@@ -535,7 +795,7 @@ function Home() {
                 <span className="bg-text2">musicmatch</span>
               </h2>
             </div>
-            <div className="project-container"></div>
+            {/* <div className="project-container"></div> */}
             <div className="project-container">
               <div className="about-container">
                 <div className="left-about2">
@@ -728,329 +988,138 @@ function Home() {
             </div>
           </div>
         </section>
-        <section id="cryptocrunch" className="section sec5 cryptocrunch">
-          <div className="cryptocrunch">
-            <div className="main-title">
-              <h2>
-                Crypto <span className="bg-text">crunch</span>
-                <span className="bg-text2">cryptocrunch</span>
-              </h2>
-            </div>
-            <div className="project-container">
-              <div className="about-container">
-                <div className="left-about2">
-                  <h4 className="about-header">
-                    CryptoCrunch App:<br></br> Project Overview
-                  </h4>
-
-                  <p>
-                    Designed and built a cryptocurrency web app with a Python/Flask back-end and a
-                    JavaScript front-end. The app includes authentication and authorization, a live
-                    news feed and dynamic charts from Apex Charts which are plugged into and powered
-                    by the CryptoCompare API.
-                  </p>
-                  <img id="desktop" src="/cryptocrunch_mock.png"></img>
-
-                  <div className="btn-container-5">
-                    <a
-                      href="https://cryptocrunch2.herokuapp.com/ "
-                      className="main-btn"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Visit Website</span>
-                      <span className="btn-icon">
-                        <i className="fa-solid fa-desktop"></i>
-                      </span>
-                    </a>
-                  </div>
-                  <div className="btn-container-4">
-                    <a
-                      href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"
-                      className="main-btn-2"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Github</span>
-                      <span className="btn-icon-2">
-                        <i className="fa-brands fa-github"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-                <div className="right-about">
-                  <div className="about-item">
-                    <div className="project-item">
-                      <img id="logo5" src="/javascript_logo.png"></img>
-                      <img id="logo5" src="/python_logo.png"></img>
-                      <img id="logo5" src="/flask_logo_white.png"></img>
-                      <p className="small-text">
-                        - Built With<br></br>Javascript, Python & the Flask Framework
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item4">
-                      <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
-                      <p className="small-text">
-                        - JSON Web Token<br></br>Authorization
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item2">
-                      <img id="logo3" src="/cryptocomparelogo.png"></img>
-                      <p className="small-text">
-                        - Cryptocompare<br></br> API Integration
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item3">
-                      <img id="logo2" src="/apex-charts-logo.png" />
-                      <p className="small-text">
-                        - Live charting<br></br>from Apex Charts
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="desc-title-3">
-                Example
-                <span className="letter"> </span>
-                <span className="letter">C</span>
-                <span className="letter">o</span>
-                <span className="letter">d</span>
-                <span className="letter">e</span>
-              </h4>
-              <div className="project-desc-container2">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Python Routing For <span>API Calls</span>
-                  </h4>
-                  <p className="code-desc">
-                    This is an exmaple of the Python code that was used to create some of the
-                    routing for the application and connect to the database based off of different
-                    URLs and PUT/ DELETE requests. The first three routes are used to convert
-                    database data into JSON that is used to build and power the application. The
-                    second two routes are used for adding and deleting favorites to the database
-                    table when a cryptocurrency is favorited by a user.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img
-                      id="img5"
-                      className="proj-desc-img"
-                      src="API_CryptoCrunch_screenshot.png"
-                    />
-                  </div>
-                  <div className="img5 proj-desc-img-zoomed">
-                    <img src="API_CryptoCrunch_screenshot.png" />
-                  </div>
-                </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Authentication &<span> Hashing w/ Bcrypt</span>
-                  </h4>
-                  <p className="code-desc">
-                    Passwords are protected and saved into the database using cryptographic hashing
-                    with Bcrypt for added security. This example code is used to both create the
-                    hashed password and then authenticate that any input password matches one of the
-                    hashed passwords which is saved in the database.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img6" className="proj-desc-img" src="/bcrypt_auth_screenshot.png" />
-                  </div>
-                  <div className="img6 proj-desc-img-zoomed">
-                    <img src="/bcrypt_auth_screenshot.png" />
-                  </div>
-                </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Live
-                    <span> Charting</span>
-                  </h4>
-                  <p className="code-desc">
-                    An example of some simple code that was used to connect JSON responses from the
-                    CryptoCompare API and display the data in the form of classic, financial
-                    candlestick charts from Apex Charts.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img7" className="proj-desc-img" src="/apexcharts_screenshot.png" />
-                  </div>
-                  <div className="img7 proj-desc-img-zoomed">
-                    <img src="/apexcharts_screenshot.png" />
-                  </div>
-                </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Unit
-                    <span> Testing</span>
-                  </h4>
-                  <p className="code-desc">
-                    One of several unit tests that I created while building the application to make
-                    sure that everything didn&apos;t just appear to work but worked when presented
-                    with multiple different edge cases.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img8" className="proj-desc-img" src="/testing_screenshot.png" />
-                  </div>
-                  <div className="img8 proj-desc-img-zoomed">
-                    <img src="/testing_screenshot.png" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section id="jeopardy" className="section sec7 jeopardy">
-          <div className="main-title">
+          <div className="main-title-2">
             <h2>
               Javascript <span className="bg-text">Jeopardy</span>
               <span className="bg-text2">jeopardy</span>
             </h2>
           </div>
-          <div className="project-container">
-            <div>
-              <div className="project-container">
-                <div className="about-container-2">
-                  <div className="left-about-3">
-                    <h4 className="about-header">
-                      Javascript Jeopardy:<br></br> Project Overview
-                    </h4>
+          {/* <div className="project-container"> */}
+          <div className="about-container-2">
+            <div className="left-about-3">
+              <h4 className="about-header">
+                Javascript Jeopardy:<br></br> Project Overview
+              </h4>
 
-                    <p>
-                      Recreated the classic game of Jeopardy using purely vanilla Javascript, HTML
-                      and CSS. The original project was a timed challenge via. Springboard which I
-                      redesigned recently to fix bugs, smooth out API calls and re-style with CSS.
-                    </p>
-                    <img id="desktop" src="/jeopardy_mockup.png"></img>
+              <p>
+                Recreated the classic game of Jeopardy using purely vanilla Javascript, HTML and
+                CSS. The original project was a timed challenge via. Springboard which I redesigned
+                recently to fix bugs, smooth out API calls and re-style with CSS.
+              </p>
+              <img id="desktop" src="/jeopardy_mockup.png"></img>
 
-                    <div className="btn-container-5">
-                      <a
-                        href="https://javascript-jeopardy.herokuapp.com/"
-                        className="main-btn"
-                        target="_blank"
-                        rel="noreferrer">
-                        <span className="btn-text">Let&apos;s Play Jeopardy!</span>
-                        <span className="btn-icon">
-                          <i className="fa-solid fa-desktop"></i>
-                        </span>
-                      </a>
-                    </div>
-                    <div className="btn-container-4">
-                      <a
-                        href="https://github.com/davidbroida/Javascript-Jeopardy"
-                        className="main-btn-2"
-                        target="_blank"
-                        rel="noreferrer">
-                        <span className="btn-text">Github</span>
-                        <span className="btn-icon-2">
-                          <i className="fa-brands fa-github "></i>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="right-about">
-                    <div className="about-item">
-                      <div className="project-item">
-                        <img id="logo4" src="/javascript_logo.png"></img>
-                        <p className="small-text">
-                          - App Made With<br></br>Purely Javascript
-                        </p>
-                      </div>
-                    </div>
-                    <div className="about-item">
-                      <div className="project-item4">
-                        <img id="logo3" src="/jservice_api_logo.png" alt="" />
-                        <p className="small-text">
-                          - JService API <br></br>Integration
-                        </p>
-                      </div>
-                    </div>
-                    <div className="about-item">
-                      <div className="about-text">
-                        <p className="large-text">220,000+</p>
-                        <p className="small-text">
-                          - Trivia Questions<br></br>
-                          <br></br>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="about-item">
-                      <div className="about-text">
-                        <p className="large-text">O.O.P.</p>
-                        <p className="small-text">
-                          - Object Oriented Programming<br></br>
-                          <br></br>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+              <div className="btn-container-5">
+                <a
+                  href="https://javascript-jeopardy.herokuapp.com/"
+                  className="main-btn"
+                  target="_blank"
+                  rel="noreferrer">
+                  <span className="btn-text">Let&apos;s Play Jeopardy!</span>
+                  <span className="btn-icon">
+                    <i className="fa-solid fa-desktop"></i>
+                  </span>
+                </a>
+              </div>
+              <div className="btn-container-4">
+                <a
+                  href="https://github.com/davidbroida/Javascript-Jeopardy"
+                  className="main-btn-2"
+                  target="_blank"
+                  rel="noreferrer">
+                  <span className="btn-text">Github</span>
+                  <span className="btn-icon-2">
+                    <i className="fa-brands fa-github "></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className="right-about">
+              <div className="about-item">
+                <div className="project-item">
+                  <img id="logo4" src="/javascript_logo.png"></img>
+                  <p className="small-text">
+                    - App Made With<br></br>Purely Javascript
+                  </p>
                 </div>
-                <h4 className="desc-title-3">
-                  Example
-                  <span className="letter"> </span>
-                  <span className="letter">C</span>
-                  <span className="letter">o</span>
-                  <span className="letter">d</span>
-                  <span className="letter">e</span>
-                </h4>
-                <div className="project-desc-container2">
-                  <div className="project-desc-left">
-                    <h4 className="desc-title2">
-                      Object Oriented <span>Javascript</span>
-                    </h4>
-                    <p className="code-desc">
-                      An exmaple of the object oriented Javascript code that was used to create a
-                      class object which the entire game runs off of. The constructor includes
-                      elements and options. Elements are all of the HTML elements that are
-                      manipulated during gameplay and the options are things such as the categories,
-                      clues and score.
-                    </p>
-                  </div>
-                  <div className="project-desc-right">
-                    <div className="desc-img-container">
-                      <img id="img9" className="proj-desc-img" src="/javascript_oop_example.png" />
-                    </div>
-                    <div className="img9 proj-desc-img-zoomed">
-                      <img src="/javascript_oop_example.png" />
-                    </div>
-                  </div>
+              </div>
+              <div className="about-item">
+                <div className="project-item4">
+                  <img id="logo3" src="/jservice_api_logo.png" alt="" />
+                  <p className="small-text">
+                    - JService API <br></br>Integration
+                  </p>
                 </div>
-                <div className="project-desc-container2">
-                  <div className="project-desc-left">
-                    <h4 className="desc-title2">
-                      Created using the <span>JService API</span>
-                    </h4>
-                    <p className="code-desc">
-                      Simple example of an API call to the JService API. Data is fetched and a new
-                      object is created with all of the resolved data. The data is then simplified
-                      further into an object of nested objects (clues) which are used to render the
-                      HTML gameboard and corresponding data (IDs, answers and values) for each
-                      datacell in the Jeopardy gameboard.
-                    </p>
-                  </div>
-                  <div className="project-desc-right">
-                    <div className="desc-img-container">
-                      <img id="img10" className="proj-desc-img" src="/jservice_api_example.png" />
-                    </div>
-                    <div className="img10 proj-desc-img-zoomed">
-                      <img src="/jservice_api_example.png" />
-                    </div>
-                  </div>
+              </div>
+              <div className="about-item">
+                <div className="about-text">
+                  <p className="large-text">220,000+</p>
+                  <p className="small-text">
+                    - Trivia Questions<br></br>
+                    <br></br>
+                  </p>
                 </div>
+              </div>
+              <div className="about-item">
+                <div className="about-text">
+                  <p className="large-text">O.O.P.</p>
+                  <p className="small-text">
+                    - Object Oriented Programming<br></br>
+                    <br></br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 className="desc-title-3">
+            Example
+            <span className="letter"> </span>
+            <span className="letter"> </span>
+            <span className="letter">C</span>
+            <span className="letter">O</span>
+            <span className="letter">D</span>
+            <span className="letter">E</span>
+          </h4>
+          <div className="project-desc-container2">
+            <div className="project-desc-left">
+              <h4 className="desc-title2">
+                Object Oriented <span>Javascript</span>
+              </h4>
+              <p className="code-desc">
+                An exmaple of the object oriented Javascript code that was used to create a class
+                object which the entire game runs off of. The constructor includes elements and
+                options. Elements are all of the HTML elements that are manipulated during gameplay
+                and the options are things such as the categories, clues and score.
+              </p>
+            </div>
+            <div className="project-desc-right">
+              <div className="desc-img-container">
+                <img id="img9" className="proj-desc-img" src="/javascript_oop_example.png" />
+              </div>
+              <div className="img9 proj-desc-img-zoomed">
+                <img src="/javascript_oop_example.png" />
+              </div>
+            </div>
+          </div>
+          <div className="project-desc-container2">
+            <div className="project-desc-left">
+              <h4 className="desc-title2">
+                Created using the <span>JService API</span>
+              </h4>
+              <p className="code-desc">
+                Simple example of an API call to the JService API. Data is fetched and a new object
+                is created with all of the resolved data. The data is then simplified further into
+                an object of nested objects (clues) which are used to render the HTML gameboard and
+                corresponding data (IDs, answers and values) for each datacell in the Jeopardy
+                gameboard.
+              </p>
+            </div>
+            <div className="project-desc-right">
+              <div className="desc-img-container">
+                <img id="img10" className="proj-desc-img" src="/jservice_api_example.png" />
+              </div>
+              <div className="img10 proj-desc-img-zoomed">
+                <img src="/jservice_api_example.png" />
               </div>
             </div>
           </div>

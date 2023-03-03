@@ -87,7 +87,7 @@ function Home() {
               </span>
             </h4>
             <p>
-              Full Stack Web Developer and recent graduate from Springboard&apos;s Fullstack
+              Full Stack Web Developer and recent graduate from Springboard&apos;s Full Stack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
               Python, SQL, APIs and am in the process of learning how to write Solidity ERC20 and
               ERC721 smart contracts on the Ethereum blockchain. I also have international sales

@@ -565,7 +565,7 @@ section.section2.active {
   height: 50vh;
   padding-left: 4rem;
   /* make the sections take up 100% of the vertical height of the window */
-  overflow-y: auto;
+  overflow-y: visible;
 
   /* if the content of a section does not fit, the section will be scrollable vertically (on the y axis) */
   /* the following css is irrelevant styling */
@@ -576,6 +576,10 @@ section.section2.active {
 @media screen and (max-width:600px) {
   section {
     padding-left: .5rem;
+  }
+
+  section.section2.active {
+    height: 90vh;
   }
 }
 
@@ -598,7 +602,7 @@ section.section2.active {
 .links {
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1.8rem;
 }
 
 .project-container {

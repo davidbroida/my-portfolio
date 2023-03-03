@@ -1,10 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// const section = document.querySelectorAll('.section');
-
-// const sectBtn = document.querySelectorAll('.control');
-
 function Home() {
   function toggle() {
     const toggle = document.getElementById('toggle');
@@ -21,10 +17,6 @@ function Home() {
       element.classList.add('active');
     });
   }
-
-  // function alertJoke() {
-  //   return alert('You are already on this website!');
-  // }
 
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -48,11 +40,6 @@ function Home() {
     <div>
       <div className="main-content">
         <section id="home" className="section page-header sec1 main-header active">
-          {/* <div className="left-header page-header "> */}
-          {/* <div className="header-shape active"></div> */}
-          {/* <div className="prof-pic active">
-              <img id="profile-pic-img" src="profile-pic.png" className="active"></img>
-            </div> */}
           <br></br>
           <div className="btn-container-prof">
             <a
@@ -66,15 +53,13 @@ function Home() {
               </span>
             </a>
           </div>
-          {/* </div> */}
+
           <div id="home" className="right-header page-header section sec1 about active">
             <h2>
-              {/* <span className="hey">Hey, I&#39;m </span>
-              David<span className="hey">...</span> */}
               David <span className="bg-text">Broida</span>
             </h2>
             <h3>Full Stack Web Developer</h3>
-            {/* <h4>React · Node.js · Javascript · Python · SQL · APIs · HTML/CSS</h4> */}
+
             <h4>
               <span id="header" className="letter">
                 React.js <span> · </span>
@@ -548,7 +533,7 @@ function Home() {
             </h1>
 
             <br></br>
-            {/* <h1 className="signature">...</h1> */}
+
             <div id="contact">
               <table className="contact-table">
                 <tbody>

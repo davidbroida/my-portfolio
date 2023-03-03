@@ -40,6 +40,7 @@ function pageTransition() {
         section.classList.remove('active');
       });
       targetSection.classList.add('active');
+      document.querySelector(`#${id}`).scrollTo(0, 0);
     });
   }
 
@@ -52,6 +53,7 @@ function pageTransition() {
         section.classList.remove('active');
       });
       targetSection.classList.add('active');
+      document.querySelector(`#${targetClass}`).scrollTo(0, 0);
     });
   }
 

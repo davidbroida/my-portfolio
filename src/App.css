@@ -592,7 +592,7 @@ section.section2.active {
 @media screen and (max-width:600px) {
   .homepage-about {
     display: block;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 4.5rem;
   }

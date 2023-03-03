@@ -224,7 +224,7 @@
 }
 
 #navbar.active a {
-  color: white;
+  color: orange;
   /* font-family: 'hey_tiny_demoregular'; */
   font-family: 'SquareFont';
   text-decoration: none;

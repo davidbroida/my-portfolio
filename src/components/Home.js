@@ -87,7 +87,7 @@ function Home() {
               </span>
             </h4>
             <p>
-              Fullstack Software Engineer and recent graduate from Springboard&apos;s Fullstack
+              Full Stack Web Developer and recent graduate from Springboard&apos;s Fullstack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
               Python, SQL, APIs and am in the process of learning how to write Solidity ERC20 and
               ERC721 smart contracts on the Ethereum blockchain. I also have international sales
@@ -173,10 +173,10 @@ function Home() {
                 David <span className="bg-text">Broida</span>
               </h4>
               <p>
-                Full Stack Software Engineer, world traveler and Mandarin Chinese expert born and
-                raised in Maine, USA currently living in Bali, Indonesia. <br></br>
-                <br></br>Recent graduate of Springboard&apos;s 800+ hour full stack software
-                engineering bootcamp. Proficient in React.js, Node.js, Python, Javascript, SQL,
+                Full Stack Web Developer, world traveler and Mandarin Chinese expert born and raised
+                in Maine, USA currently living in Bali, Indonesia. <br></br>
+                <br></br>Recent graduate of Springboard&apos;s 800+ hour Full Stack Software
+                Engineering Bootcamp. Proficient in React.js, Node.js, Python, Javascript, SQL,
                 APIs, HTML and CSS.<br></br>
                 <br></br> I love learning, taking on new challenges and pushing myself to reach my
                 highest potential. As a Software Developer I am always looking for new opportunities

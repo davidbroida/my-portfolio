@@ -251,6 +251,10 @@
     color: orange;
     transition: 0.5s;
   }
+
+  #navbar.active a {
+    color: orange;
+  }
 }
 
 

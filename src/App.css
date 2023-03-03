@@ -598,6 +598,7 @@ section.section2.active {
 .links {
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .project-container {
@@ -980,19 +981,21 @@ span.hey {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .prof-pic img {
-
-  height: 100%;
-  width: 80%;
-
+  height: 350px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
   /* margin-left: 3rem; */
   transition: all .4s ease-in-out;
   z-index: 1;
-  /* margin-top: 4rem; */
-  object-fit: cover;
+  /* margin-top: 1rem; */
+  object-fit: contain;
   transition: all .4s ease-in-out;
   filter: grayscale(100%);
 }
@@ -1028,12 +1031,11 @@ section.section2 {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  /* background-color: rgb(27, 24, 22); */
-  /* background: url("/Users/davidbroida/Desktop/Portfolio_Project/public/back_background_textured_1.jpg"); */
+
   color: white;
   padding-right: 2%;
-  /* top: 1rem; */
   animation: scaleAnim 1s ease-in-out;
+
 }
 
 .sec2 {

@@ -1066,8 +1066,9 @@ section.section2 {
 
 @media screen and (max-width: 600px) {
 
-  section.sec2 {
+  section.sec2.active {
     padding: 0%;
+    margin: 0%;
   }
 
 
@@ -1448,13 +1449,13 @@ section.section2 {
     align-self: flex-end;
     width: 100%;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 0rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
 
   .btn-container-3 a {
-    margin-right: 2rem;
+    margin-right: 0rem;
   }
 
 

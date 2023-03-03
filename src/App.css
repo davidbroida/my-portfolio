@@ -246,6 +246,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:600px) {
+  #navbar a:hover {
+    color: orange;
+  }
+}
+
 
 
 /* DESKTOP COMPUTER IMAGES OF MOCK UP APPLICATIONS */
@@ -592,7 +598,7 @@ section.section2.active {
 @media screen and (max-width:600px) {
   .homepage-about {
     display: block;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }

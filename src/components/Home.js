@@ -160,7 +160,7 @@ function Home() {
           </div>
         </section>
         <section id="about" className="section sec2 about">
-          <div className="main-title-2">
+          <div className="main-title-3">
             <h2>
               About <span className="bg-text">Me</span>
               <span className="bg-text2">About</span>
@@ -195,7 +195,7 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="right-about">
+            <div className="right-about-2">
               <div className="about-item">
                 <div className="about-text">
                   <p className="large-text">1000&apos; s</p>
@@ -558,7 +558,16 @@ function Home() {
                   <tr>
                     <th>EMAIL: </th>
                     <th>
-                      <span>davidcbroida@gmail.com</span>
+                      <span>
+                        {' '}
+                        <a
+                          id="hover"
+                          href="https://mail.google.com/mail/?view=cm&fs=1&to=davidcbroida@gmail.com"
+                          target="_blank"
+                          rel="noreferrer">
+                          davidcbroida@gmail.com
+                        </a>
+                      </span>
                     </th>
                   </tr>
                   <tr>
@@ -634,7 +643,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="right-about">
+                <div className="right-about-2">
                   <div className="about-item">
                     <div className="project-item">
                       <img id="logo5" src="/javascript_logo.png"></img>
@@ -823,7 +832,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="right-about">
+                <div className="right-about-2">
                   <div className="about-item">
                     <div className="project-item">
                       <img id="logo5" src="/react_logo.png"></img>
@@ -1019,7 +1028,7 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="right-about">
+            <div className="right-about-2">
               <div className="about-item">
                 <div className="project-item">
                   <img id="logo4" src="/javascript_logo.png"></img>

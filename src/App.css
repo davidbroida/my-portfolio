@@ -381,11 +381,13 @@
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
-    background-color: rgba(20, 20, 20, 0.733);
+    /* background-color: rgba(20, 20, 20, 0.733); */
+    background-image: linear-gradient(to bottom right, rgb(69, 69, 69), black);
     width: 100%;
     gap: 1rem;
     z-index: 2;
   }
+
 
   .control.active {
     flex-direction: row;

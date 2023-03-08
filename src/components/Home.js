@@ -89,11 +89,11 @@ function Home() {
             <p>
               Full Stack Web Developer and recent graduate from Springboard&apos;s Full Stack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
-              Python, SQL, APIs and am in the process of learning how to write Solidity ERC20 and
-              ERC721 smart contracts on the Ethereum blockchain. I also have international sales
-              experience and can speak fluent Mandarin Chinese. Currently I am working for Hexmount
-              LLC as a Software Engineer Intern continuing to practice my skills while looking for
-              additional full-time employment opportunities.
+              Python, SQL, APIs... fully focused on writing high quality and efficient code with an
+              emphasis on Javascript. I also have international sales experience and can speak
+              fluent Mandarin Chinese. Currently I am working for Hexmount LLC as a Software
+              Engineer Intern continuing to practice my skills while looking for additional
+              full-time employment opportunities.
             </p>
             <div className="btn-container">
               <a
@@ -547,7 +547,7 @@ function Home() {
                   <tr>
                     <th>ADDRESS:</th>
                     <th>
-                      <span>Portland, ME USA</span>
+                      <span>Portland, Maine USA</span>
                     </th>
                   </tr>
                   <tr>

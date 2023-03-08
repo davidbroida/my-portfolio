@@ -113,7 +113,10 @@ function Home() {
             <div className="left-about">
               <div>
                 <div className="prof-pic active">
-                  <img id="profile-pic-img" src="polaroid_headshop.png" className="active"></img>
+                  <img
+                    id="profile-pic-img"
+                    src="polaroid prof pic joke.png"
+                    className="active"></img>
                 </div>
               </div>
             </div>

@@ -347,6 +347,41 @@ function Home() {
 
             <div className="timeline-item">
               <div className="timeline-icon">
+                <i className="fa-solid fa-graduation-cap"></i>
+              </div>
+              <p className="timeline-duration">May 2021 - Jul 2022</p>
+              <h5>
+                Springboard Software Engineering Bootcamp <span> - Student</span>
+              </h5>
+              <p>
+                React.js | JavaScript | Python & Flask | SQL & PostgresQL | Node.js & Express | HTML
+                & CSS
+                <br></br>
+                <br></br>
+                Completed over 1000 hours of hands-on course material with 1:1 industry expert
+                mentor oversight and completion of three in-depth portfolio projects. Mastered
+                skills in front-end web development, back-end web development, databases, data
+                structures and algorithms.
+              </p>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-icon">
+                <i className="fa-solid fa-graduation-cap"></i>
+              </div>
+              <p className="timeline-duration">Sep 2016 - Jun 2020</p>
+              <h5>
+                Hainan University <span> - B.A. Chinese Language & Literature</span>
+              </h5>
+              <p>
+                Received a full scholarship from the Chinese government for a 4 year Bachelor&apos;
+                s Degree in Mandarin Chinese Language and Literature. Living in Haikou City on
+                Hainan Island in China, mastering my language and cross-cultural communication
+                skills living with people from all around the world. Passed HS6 Level 6 and wrote a
+                20 page thesis entirely in Mandarin Chinese.
+              </p>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-icon">
                 <i className="fas fa-briefcase"></i>
               </div>
               <p className="timeline-duration">Apr 2014 - Jan 2016</p>
@@ -369,25 +404,6 @@ function Home() {
             </div>
             <div className="timeline-item">
               <div className="timeline-icon">
-                <i className="fa-solid fa-graduation-cap"></i>
-              </div>
-              <p className="timeline-duration">May 2021 - Jul 2022</p>
-              <h5>
-                Springboard Software Engineering Bootcamp <span> - Student</span>
-              </h5>
-              <p>
-                React.js | JavaScript | Python & Flask | SQL & PostgresQL | Node.js & Express | HTML
-                & CSS
-                <br></br>
-                <br></br>
-                Completed over 1000 hours of hands-on course material with 1:1 industry expert
-                mentor oversight and completion of three in-depth portfolio projects. Mastered
-                skills in front-end web development, back-end web development, databases, data
-                structures and algorithms.
-              </p>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-icon">
                 <i className="fas fa-briefcase"></i>
               </div>
               <p className="timeline-duration">Sep 2013 - Mar 2014</p>
@@ -403,22 +419,7 @@ function Home() {
                 provided weekly English language lessons to those interested.
               </p>
             </div>
-            <div className="timeline-item">
-              <div className="timeline-icon">
-                <i className="fa-solid fa-graduation-cap"></i>
-              </div>
-              <p className="timeline-duration">Sep 2016 - Jun 2020</p>
-              <h5>
-                Hainan University <span> - B.A. Chinese Language & Literature</span>
-              </h5>
-              <p>
-                Received a full scholarship from the Chinese government for a 4 year Bachelor&apos;
-                s Degree in Mandarin Chinese Language and Literature. Living in Haikou City on
-                Hainan Island in China, mastering my language and cross-cultural communication
-                skills living with people from all around the world. Passed HS6 Level 6 and wrote a
-                20 page thesis entirely in Mandarin Chinese.
-              </p>
-            </div>
+
             <div className="timeline-item">
               <div className="timeline-icon">
                 <i className="fa-solid fa-graduation-cap"></i>

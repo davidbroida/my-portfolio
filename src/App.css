@@ -9,6 +9,7 @@
   align-self: flex-end;
   width: 100%;
   justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* @media screen and (max-width: 1250px) {
@@ -19,6 +20,7 @@
 
 .btn-container-prof {
   display: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* @media screen and (max-width: 1250px) {
@@ -1415,6 +1417,7 @@ section.section2 {
   width: 100%;
   justify-content: center;
   margin-left: 5%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -1545,10 +1548,12 @@ section.section2 {
     margin-left: 0rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .btn-container-3 a {
     margin-right: 0rem;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 
@@ -1869,7 +1874,10 @@ section.section2 {
 .btn-container-2 {
   display: flex;
   align-self: flex-end;
+  align-items: center;
   justify-content: center;
+  padding-left: 2rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -1880,12 +1888,13 @@ section.section2 {
   width: 100%;
   justify-content: center;
   margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @media screen and (max-width:600px) {
   .btn-container-4 {
-
     margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
   }
 }
 
@@ -1895,6 +1904,7 @@ section.section2 {
   width: 100%;
   justify-content: center;
   margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .btn-container-6 {
@@ -1905,7 +1915,7 @@ section.section2 {
   margin-left: 5%;
   margin-top: 10px;
   margin-bottom: 3rem;
-
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -2019,6 +2029,7 @@ section.section2 {
   padding: .5rem;
   background-color: orange;
   color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .close-btn {
@@ -2067,7 +2078,12 @@ a:hover {
   transition: all .4s ease-in-out;
 }
 
-#hover:hover {
+#hover {
   color: orange;
+  text-decoration: underline;
+}
+
+#hover:hover {
+  color: rgb(45, 139, 255);
   transition: all .4s ease-in-out;
 }

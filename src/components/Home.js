@@ -88,12 +88,11 @@ function Home() {
             <p>
               Full Stack Web Developer and recent graduate from Springboard&apos;s Full Stack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
-              Python, SQL, APIs... fully focused on writing high quality and efficient code with an
-              emphasis on Javascript. I also am semi-professional photographer well versed in Adobe
-              Photoshop, Illustrator and Premier Pro. I also have international business development
-              / sales experience and speak fluent Mandarin Chinese. Currently I am living in Bali,
-              Indonesia working for Hexmount LLC. as a Software Engineer Intern continuing to
-              practice my skills while looking for additional full-time employment opportunities.
+              Python, SQL, APIs fully focused on writing high quality and efficient code with an
+              emphasis on Javascript. I have international sales experience, love photography/
+              graphic design and can speak fluent Mandarin Chinese. Currently I am working for
+              Hexmount LLC as a Software Engineer Intern continuing to practice my skills while
+              looking for additional full-time employment opportunities.
             </p>
             <div className="btn-container">
               <a

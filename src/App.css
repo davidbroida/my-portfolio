@@ -1208,6 +1208,15 @@ section.section2 {
     color: white;
   }
 
+  .sec5 {
+    /* display: none; */
+    transform: translateY(0) scale(1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    animation: scaleAnim 1s ease-in-out;
+    color: white;
+  }
+
   .sec7 {
     /* display: none; */
     transform: translateY(0) scale(1);

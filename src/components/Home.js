@@ -597,188 +597,184 @@ function Home() {
         </section>
         <section id="cryptocrunch" className="section sec5 cryptocrunch">
           <div className="cryptocrunch">
-            <div className="main-title">
+            <div className="main-title-2">
               <h2>
                 Crypto <span className="bg-text">crunch</span>
                 <span className="bg-text2">cryptocrunch</span>
               </h2>
             </div>
-            <div className="project-container">
-              <div className="about-container">
-                <div className="left-about2">
-                  <h4 className="about-header">
-                    CryptoCrunch App:<br></br> Project Overview
-                  </h4>
+            {/* <div className="project-container"> */}
+            <div className="about-container-2">
+              <div className="left-about-3">
+                <h4 className="about-header">
+                  CryptoCrunch App:<br></br> Project Overview
+                </h4>
 
-                  <p>
-                    Designed and built a cryptocurrency web app with a Python/Flask back-end and a
-                    JavaScript front-end. The app includes authentication and authorization, a live
-                    news feed and dynamic charts from Apex Charts which are plugged into and powered
-                    by the CryptoCompare API.
-                  </p>
-                  <img id="desktop" src="/cryptocrunch_mock.png"></img>
+                <p>
+                  Designed and built a cryptocurrency web app with a Python/Flask back-end and a
+                  JavaScript front-end. The app includes authentication and authorization, a live
+                  news feed and dynamic charts from Apex Charts which are plugged into and powered
+                  by the CryptoCompare API.
+                </p>
+                <img id="desktop" src="/cryptocrunch_mock.png"></img>
 
-                  <div className="btn-container-5">
-                    <a
-                      href="https://cryptocrunch2.herokuapp.com/ "
-                      className="main-btn"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Visit Website</span>
-                      <span className="btn-icon">
-                        <i className="fa-solid fa-desktop"></i>
-                      </span>
-                    </a>
-                  </div>
-                  <div className="btn-container-4">
-                    <a
-                      href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"
-                      className="main-btn-2"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Github</span>
-                      <span className="btn-icon-2">
-                        <i className="fa-brands fa-github"></i>
-                      </span>
-                    </a>
-                  </div>
+                <div className="btn-container-5">
+                  <a
+                    href="https://cryptocrunch2.herokuapp.com/ "
+                    className="main-btn"
+                    target="_blank"
+                    rel="noreferrer">
+                    <span className="btn-text">Visit Website</span>
+                    <span className="btn-icon">
+                      <i className="fa-solid fa-desktop"></i>
+                    </span>
+                  </a>
                 </div>
-                <div className="right-about-2">
-                  <div className="about-item">
-                    <div className="project-item">
-                      <img id="logo5" src="/javascript_logo.png"></img>
-                      <img id="logo5" src="/python_logo.png"></img>
-                      <img id="logo5" src="/flask_logo_white.png"></img>
-                      <p className="small-text">
-                        - Built With<br></br>Javascript, Python & the Flask Framework
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item4">
-                      <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
-                      <p className="small-text">
-                        - JSON Web Token<br></br>Authorization
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item2">
-                      <img id="logo3" src="/cryptocomparelogo.png"></img>
-                      <p className="small-text">
-                        - Cryptocompare<br></br> API Integration
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item3">
-                      <img id="logo2" src="/apex-charts-logo.png" />
-                      <p className="small-text">
-                        - Live charting<br></br>from Apex Charts
-                      </p>
-                    </div>
-                  </div>
+                <div className="btn-container-4">
+                  <a
+                    href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"
+                    className="main-btn-2"
+                    target="_blank"
+                    rel="noreferrer">
+                    <span className="btn-text">Github</span>
+                    <span className="btn-icon-2">
+                      <i className="fa-brands fa-github"></i>
+                    </span>
+                  </a>
                 </div>
               </div>
-              <h4 className="desc-title-3">
-                Example
-                <span className="letter"> </span>
-                <span className="letter">C</span>
-                <span className="letter">O</span>
-                <span className="letter">D</span>
-                <span className="letter">E</span>
-              </h4>
-              <div className="project-desc-container2">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Python Routing For <span>API Calls</span>
-                  </h4>
-                  <p className="code-desc">
-                    This is an exmaple of the Python code that was used to create some of the
-                    routing for the application and connect to the database based off of different
-                    URLs and PUT/ DELETE requests. The first three routes are used to convert
-                    database data into JSON that is used to build and power the application. The
-                    second two routes are used for adding and deleting favorites to the database
-                    table when a cryptocurrency is favorited by a user.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img
-                      id="img5"
-                      className="proj-desc-img"
-                      src="API_CryptoCrunch_screenshot.png"
-                    />
-                  </div>
-                  <div className="img5 proj-desc-img-zoomed">
-                    <img src="API_CryptoCrunch_screenshot.png" />
+              <div className="right-about-2">
+                <div className="about-item">
+                  <div className="project-item">
+                    <img id="logo5" src="/javascript_logo.png"></img>
+                    <img id="logo5" src="/python_logo.png"></img>
+                    <img id="logo5" src="/flask_logo_white.png"></img>
+                    <p className="small-text">
+                      - Built With<br></br>Javascript, Python & the Flask Framework
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Authentication &<span> Hashing w/ Bcrypt</span>
-                  </h4>
-                  <p className="code-desc">
-                    Passwords are protected and saved into the database using cryptographic hashing
-                    with Bcrypt for added security. This example code is used to both create the
-                    hashed password and then authenticate that any input password matches one of the
-                    hashed passwords which is saved in the database.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img6" className="proj-desc-img" src="/bcrypt_auth_screenshot.png" />
-                  </div>
-                  <div className="img6 proj-desc-img-zoomed">
-                    <img src="/bcrypt_auth_screenshot.png" />
+                <div className="about-item">
+                  <div className="project-item4">
+                    <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
+                    <p className="small-text">
+                      - JSON Web Token<br></br>Authorization
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Live
-                    <span> Charting</span>
-                  </h4>
-                  <p className="code-desc">
-                    An example of some simple code that was used to connect JSON responses from the
-                    CryptoCompare API and display the data in the form of classic, financial
-                    candlestick charts from Apex Charts.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img7" className="proj-desc-img" src="/apexcharts_screenshot.png" />
-                  </div>
-                  <div className="img7 proj-desc-img-zoomed">
-                    <img src="/apexcharts_screenshot.png" />
+                <div className="about-item">
+                  <div className="project-item2">
+                    <img id="logo3" src="/cryptocomparelogo.png"></img>
+                    <p className="small-text">
+                      - Cryptocompare<br></br> API Integration
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Unit
-                    <span> Testing</span>
-                  </h4>
-                  <p className="code-desc">
-                    One of several unit tests that I created while building the application to make
-                    sure that everything didn&apos;t just appear to work but worked when presented
-                    with multiple different edge cases.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img8" className="proj-desc-img" src="/testing_screenshot.png" />
-                  </div>
-                  <div className="img8 proj-desc-img-zoomed">
-                    <img src="/testing_screenshot.png" />
+                <div className="about-item">
+                  <div className="project-item3">
+                    <img id="logo2" src="/apex-charts-logo.png" />
+                    <p className="small-text">
+                      - Live charting<br></br>from Apex Charts
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+            <h4 className="desc-title-3">
+              Example
+              <span className="letter"> </span>
+              <span className="letter">C</span>
+              <span className="letter">O</span>
+              <span className="letter">D</span>
+              <span className="letter">E</span>
+            </h4>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Python Routing For <span>API Calls</span>
+                </h4>
+                <p className="code-desc">
+                  This is an exmaple of the Python code that was used to create some of the routing
+                  for the application and connect to the database based off of different URLs and
+                  PUT/ DELETE requests. The first three routes are used to convert database data
+                  into JSON that is used to build and power the application. The second two routes
+                  are used for adding and deleting favorites to the database table when a
+                  cryptocurrency is favorited by a user.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img5" className="proj-desc-img" src="API_CryptoCrunch_screenshot.png" />
+                </div>
+                <div className="img5 proj-desc-img-zoomed">
+                  <img src="API_CryptoCrunch_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Authentication &<span> Hashing w/ Bcrypt</span>
+                </h4>
+                <p className="code-desc">
+                  Passwords are protected and saved into the database using cryptographic hashing
+                  with Bcrypt for added security. This example code is used to both create the
+                  hashed password and then authenticate that any input password matches one of the
+                  hashed passwords which is saved in the database.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img6" className="proj-desc-img" src="/bcrypt_auth_screenshot.png" />
+                </div>
+                <div className="img6 proj-desc-img-zoomed">
+                  <img src="/bcrypt_auth_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Live
+                  <span> Charting</span>
+                </h4>
+                <p className="code-desc">
+                  An example of some simple code that was used to connect JSON responses from the
+                  CryptoCompare API and display the data in the form of classic, financial
+                  candlestick charts from Apex Charts.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img7" className="proj-desc-img" src="/apexcharts_screenshot.png" />
+                </div>
+                <div className="img7 proj-desc-img-zoomed">
+                  <img src="/apexcharts_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Unit
+                  <span> Testing</span>
+                </h4>
+                <p className="code-desc">
+                  One of several unit tests that I created while building the application to make
+                  sure that everything didn&apos;t just appear to work but worked when presented
+                  with multiple different edge cases.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img8" className="proj-desc-img" src="/testing_screenshot.png" />
+                </div>
+                <div className="img8 proj-desc-img-zoomed">
+                  <img src="/testing_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            {/* </div> */}
           </div>
         </section>
         <section id="musicmatch" className="section sec6 musicmatch">

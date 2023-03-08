@@ -1458,7 +1458,7 @@ section.section2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2px;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     padding-right: 1rem;
 
   }
@@ -1605,7 +1605,8 @@ section.section2 {
     text-align: center;
     left: 50%;
     right: 50%;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -1628,7 +1629,7 @@ section.section2 {
 @media screen and (max-width:600px) {
   .left-about-3 {
     padding-right: 0rem;
-    padding-left: 0;
+    padding-left: 0rem;
   }
 }
 
@@ -1713,7 +1714,7 @@ section.section2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 4.5rem;
+    margin-left: 3rem;
     width: 75%;
     height: 75%;
     border-radius: 15px;

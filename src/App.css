@@ -264,6 +264,27 @@
   color: orange;
 }
 
+.navlink h2.jeopardy {
+  text-decoration: underline;
+  color: rgb(0, 170, 255);
+}
+
+.navlink h2.cryptocrunch {
+  text-decoration: underline;
+
+  color: rgb(38, 216, 22);
+}
+
+.navlink h2.musicmatch {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navlink h2.thiswebsite {
+  text-decoration: underline;
+  color: rgb(186, 4, 214);
+}
+
 .navlink h2:hover {
   text-decoration: underline;
   color: white
@@ -2005,4 +2026,9 @@ a:hover {
 #hover:hover {
   color: rgb(45, 139, 255);
   transition: all .4s ease-in-out;
+}
+
+
+.jeopardy {
+  color: red;
 }

@@ -322,10 +322,10 @@ function Home() {
               </h5>
               <p>
                 Working alongside the CEO and Founder on a cryptocurrency monitoring application
-                with a React.js frontend and a Node.js backend and Alchemy. Also working on a second
-                ERC721 NFT project, developing the frontend with on chain staking functions gaining
-                exposure to the project development lifecycle and writing Solidity ERC20 and ERC721
-                smart contracts on the Ethereum blockchain.
+                with a React.js frontend and a Node.js backend using Alchemy. Also working on a
+                second ERC721 NFT project, developing the frontend with on chain staking functions
+                gaining exposure to the project development lifecycle and writing Solidity ERC20 and
+                ERC721 smart contracts on the Ethereum blockchain.
               </p>
             </div>
             <div className="timeline-item">

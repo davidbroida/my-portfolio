@@ -271,6 +271,15 @@
   }
 }
 
+.navlink h2 {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navlink h2:hover {
+  text-decoration: underline;
+  color: white
+}
 
 
 /* DESKTOP COMPUTER IMAGES OF MOCK UP APPLICATIONS */
@@ -406,7 +415,7 @@
   .control.active {
     flex-direction: row;
     justify-content: center;
-    margin: .7rem 0;
+    /* margin: .7rem 0; */
   }
 
   #footer {
@@ -437,7 +446,7 @@
   font-size: 30px;
   color: white;
   text-align: center;
-  margin: 20px 0px 0px 50px;
+  margin: 20px 0px 0px 0px;
   overflow: hidden;
   float: left;
   padding-bottom: 1rem;
@@ -531,9 +540,9 @@
 }
 
 .project-button h2:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
   cursor: pointer;
-  color: orange;
+  color: white;
   left: 5%;
 }
 

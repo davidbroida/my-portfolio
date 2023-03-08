@@ -600,7 +600,7 @@ function Home() {
             <div className="main-title-2">
               <h2>
                 Crypto <span className="bg-text">crunch</span>
-                <span className="bg-text2">cryptocrunch</span>
+                <span className="bg-text2">crypto</span>
               </h2>
             </div>
             {/* <div className="project-container"> */}
@@ -782,200 +782,199 @@ function Home() {
             <div className="main-title">
               <h2>
                 Music <span className="bg-text">match</span>
-                <span className="bg-text2">musicmatch</span>
+                <span className="bg-text2">music</span>
               </h2>
             </div>
             {/* <div className="project-container"></div> */}
-            <div className="project-container">
-              <div className="about-container">
-                <div className="left-about2">
-                  <h4 className="about-header">
-                    MusicMatch App:<br></br> Project Overview
-                  </h4>
+            {/* <div className="project-container"> */}
+            <div className="about-container-2">
+              <div className="left-about-3">
+                <h4 className="about-header">
+                  MusicMatch App:<br></br> Project Overview
+                </h4>
 
-                  <p>
-                    Created a full-stack web app which helps expedite and expand the discovery of
-                    new music. Built with a React.js front-end and a Node.js back-end, the app
-                    allows users to search for music, create playlists and discover new tunes based
-                    on recommendations from Spotify’s powerful web API. I&apos;m proud of this
-                    project because of it&apos;s clean, React.js architecture and codebase along
-                    with having user authorization and authentication for signup and login.
-                  </p>
-                  <img id="desktop" src="/musicMatch_mock.png"></img>
+                <p>
+                  Created a full-stack web app which helps expedite and expand the discovery of new
+                  music. Built with a React.js front-end and a Node.js back-end, the app allows
+                  users to search for music, create playlists and discover new tunes based on
+                  recommendations from Spotify’s powerful web API. I&apos;m proud of this project
+                  because of it&apos;s clean, React.js architecture and codebase along with having
+                  user authorization and authentication for signup and login.
+                </p>
+                <img id="desktop" src="/musicMatch_mock.png"></img>
 
-                  <div className="btn-container-5">
-                    <a
-                      href="https://musicmatchapp.herokuapp.com/"
-                      className="main-btn"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Visit Website</span>
-                      <span className="btn-icon">
-                        <i className="fa-solid fa-desktop"></i>
-                      </span>
-                    </a>
-                  </div>
-                  <div className="btn-container-4">
-                    <a
-                      href="https://github.com/davidbroida/Music-Match-App"
-                      className="main-btn-2"
-                      target="_blank"
-                      rel="noreferrer">
-                      <span className="btn-text">Github</span>
-                      <span className="btn-icon-2">
-                        <i className="fa-brands fa-github"></i>
-                      </span>
-                    </a>
-                  </div>
+                <div className="btn-container-5">
+                  <a
+                    href="https://musicmatchapp.herokuapp.com/"
+                    className="main-btn"
+                    target="_blank"
+                    rel="noreferrer">
+                    <span className="btn-text">Visit Website</span>
+                    <span className="btn-icon">
+                      <i className="fa-solid fa-desktop"></i>
+                    </span>
+                  </a>
                 </div>
-                <div className="right-about-2">
-                  <div className="about-item">
-                    <div className="project-item">
-                      <img id="logo5" src="/react_logo.png"></img>
-                      <img id="logo5" src="/nodejs_logo2.png"></img>
-                      <p className="small-text">
-                        - Built With<br></br>React.js & Node.js
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item4">
-                      <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
-                      <p className="small-text">
-                        - JSON Web Token<br></br>Authorization
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="project-item2">
-                      <img id="logo2" src="/spotify_logo2-transparent.png"></img>
-                      <p className="small-text">
-                        - Spotify Web <br></br>API Integration
-                      </p>
-                    </div>
-                  </div>
-                  <div className="about-item">
-                    <div className="about-text">
-                      <p className="large-text">Automatic</p>
-                      <p className="small-text">
-                        - Song Lyric<br></br>generation<br></br>(Still buggy)
-                      </p>
-                    </div>
-                  </div>
+                <div className="btn-container-4">
+                  <a
+                    href="https://github.com/davidbroida/Music-Match-App"
+                    className="main-btn-2"
+                    target="_blank"
+                    rel="noreferrer">
+                    <span className="btn-text">Github</span>
+                    <span className="btn-icon-2">
+                      <i className="fa-brands fa-github"></i>
+                    </span>
+                  </a>
                 </div>
               </div>
-              <h4 className="desc-title-3">
-                Example
-                <span className="letter"> </span>
-                <span className="letter">C</span>
-                <span className="letter">o</span>
-                <span className="letter">d</span>
-                <span className="letter">e</span>
-              </h4>
-              <div className="project-desc-container2">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Application <span>Architecture</span>
-                  </h4>
-                  <p className="code-desc">
-                    This is an example of the React.js code that was used to create the overall
-                    architecture of the app. The code also demonstrates basic use of React hooks and
-                    JSON Web Tokens to manage state (the React hooks) authorization and
-                    authentication (JSON Web Token). This made it relatively easy for me to write
-                    the code which allows people to sign up, sign in and log out of the application.
-                    This type of feature also requires some backend knowledge, as user information
-                    needs to be sent to, stored in, and retreived from a back-end database which I
-                    created myself as well.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img
-                      id="img1"
-                      className="proj-desc-img"
-                      src="/react_architecture_screenshot_xxs.png"
-                    />
-                  </div>
-                  <div className="img1 proj-desc-img-zoomed">
-                    <img src="/react_architecture_screenshot.png" />
+              <div className="right-about-2">
+                <div className="about-item">
+                  <div className="project-item">
+                    <img id="logo5" src="/react_logo.png"></img>
+                    <img id="logo5" src="/nodejs_logo2.png"></img>
+                    <p className="small-text">
+                      - Built With<br></br>React.js & Node.js
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="project-desc-container2">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    JSON Web Token <span>Authorization</span>
-                  </h4>
-                  <p className="code-desc">
-                    A more in-depth look at the code that was used to allow for authorization and
-                    authentication (sign up and login) using JSON Web Token and middleware which
-                    connects the application to the database. If a token is provided it is verified
-                    and if valid, stored. If no token is provided or the provided token is invalid
-                    an error is thrown. The code also insures that certain pages can only be viewed
-                    by users who are logged in and that certain pages can only be viewed by Admins.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img
-                      id="img2"
-                      className="proj-desc-img"
-                      src="/musicMatch_webtoken_screenshot.png"
-                    />
-                  </div>
-                  <div className="img2 proj-desc-img-zoomed">
-                    <img src="/musicMatch_webtoken_screenshot.png" />
+                <div className="about-item">
+                  <div className="project-item4">
+                    <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
+                    <p className="small-text">
+                      - JSON Web Token<br></br>Authorization
+                    </p>
                   </div>
                 </div>
-              </div>
-
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    Spotify Web <span>API Integration</span>
-                  </h4>
-                  <p className="code-desc">
-                    Here&apos; s an exmaple of the code that was used to integrate the app with the
-                    Spotify Web API. Users must first verify that they have a Spotify account and
-                    then they are able to begin using the app. The API works off of simple RESTful
-                    API principles (GET, PUT, POST and DELETE). When a request is made the Spotify
-                    Web API returns JSON data about music artists, albums and tracks from the API
-                    which is then used to create the client-facing front-end that users interact
-                    with.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img3" className="proj-desc-img" src="/spotify_api_screenshot.png" />
-                  </div>
-                  <div className="img3 proj-desc-img-zoomed">
-                    <img src="/spotify_api_screenshot.png" />
+                <div className="about-item">
+                  <div className="project-item2">
+                    <img id="logo2" src="/spotify_logo2-transparent.png"></img>
+                    <p className="small-text">
+                      - Spotify Web <br></br>API Integration
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div className="project-desc-container">
-                <div className="project-desc-left">
-                  <h4 className="desc-title2">
-                    use Effect Hook & <span>Refresh Token</span>
-                  </h4>
-                  <p className="code-desc">
-                    A more in-depth look at code that utilizes React hooks and web tokens for
-                    authentication and authorization. Here the useEffect hook is used to set the
-                    access token and a refresh token which can be used after the initial access
-                    token has expired. Simply put, this creates a better, more seamless user
-                    experience because clients are not forced to re-login to the app multiple times.
-                  </p>
-                </div>
-                <div className="project-desc-right">
-                  <div className="desc-img-container">
-                    <img id="img4" className="proj-desc-img" src="/useAuthHook_screenshot.png" />
-                  </div>
-                  <div className="img4 proj-desc-img-zoomed">
-                    <img src="/useAuthHook_screenshot.png" />
+                <div className="about-item">
+                  <div className="about-text">
+                    <p className="large-text">Automatic</p>
+                    <p className="small-text">
+                      - Song Lyric<br></br>generation<br></br>(Still buggy)
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+            <h4 className="desc-title-3">
+              Example
+              <span className="letter"> </span>
+              <span className="letter">C</span>
+              <span className="letter">o</span>
+              <span className="letter">d</span>
+              <span className="letter">e</span>
+            </h4>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Application <span>Architecture</span>
+                </h4>
+                <p className="code-desc">
+                  This is an example of the React.js code that was used to create the overall
+                  architecture of the app. The code also demonstrates basic use of React hooks and
+                  JSON Web Tokens to manage state (the React hooks) authorization and authentication
+                  (JSON Web Token). This made it relatively easy for me to write the code which
+                  allows people to sign up, sign in and log out of the application. This type of
+                  feature also requires some backend knowledge, as user information needs to be sent
+                  to, stored in, and retreived from a back-end database which I created myself as
+                  well.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img
+                    id="img1"
+                    className="proj-desc-img"
+                    src="/react_architecture_screenshot_xxs.png"
+                  />
+                </div>
+                <div className="img1 proj-desc-img-zoomed">
+                  <img src="/react_architecture_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  JSON Web Token <span>Authorization</span>
+                </h4>
+                <p className="code-desc">
+                  A more in-depth look at the code that was used to allow for authorization and
+                  authentication (sign up and login) using JSON Web Token and middleware which
+                  connects the application to the database. If a token is provided it is verified
+                  and if valid, stored. If no token is provided or the provided token is invalid an
+                  error is thrown. The code also insures that certain pages can only be viewed by
+                  users who are logged in and that certain pages can only be viewed by Admins.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img
+                    id="img2"
+                    className="proj-desc-img"
+                    src="/musicMatch_webtoken_screenshot.png"
+                  />
+                </div>
+                <div className="img2 proj-desc-img-zoomed">
+                  <img src="/musicMatch_webtoken_screenshot.png" />
+                </div>
+              </div>
+            </div>
+
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  Spotify Web <span>API Integration</span>
+                </h4>
+                <p className="code-desc">
+                  Here&apos; s an exmaple of the code that was used to integrate the app with the
+                  Spotify Web API. Users must first verify that they have a Spotify account and then
+                  they are able to begin using the app. The API works off of simple RESTful API
+                  principles (GET, PUT, POST and DELETE). When a request is made the Spotify Web API
+                  returns JSON data about music artists, albums and tracks from the API which is
+                  then used to create the client-facing front-end that users interact with.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img3" className="proj-desc-img" src="/spotify_api_screenshot.png" />
+                </div>
+                <div className="img3 proj-desc-img-zoomed">
+                  <img src="/spotify_api_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            <div className="project-desc-container2">
+              <div className="project-desc-left">
+                <h4 className="desc-title2">
+                  use Effect Hook & <span>Refresh Token</span>
+                </h4>
+                <p className="code-desc">
+                  A more in-depth look at code that utilizes React hooks and web tokens for
+                  authentication and authorization. Here the useEffect hook is used to set the
+                  access token and a refresh token which can be used after the initial access token
+                  has expired. Simply put, this creates a better, more seamless user experience
+                  because clients are not forced to re-login to the app multiple times.
+                </p>
+              </div>
+              <div className="project-desc-right">
+                <div className="desc-img-container">
+                  <img id="img4" className="proj-desc-img" src="/useAuthHook_screenshot.png" />
+                </div>
+                <div className="img4 proj-desc-img-zoomed">
+                  <img src="/useAuthHook_screenshot.png" />
+                </div>
+              </div>
+            </div>
+            {/* </div> */}
           </div>
         </section>
         <section id="jeopardy" className="section sec7 jeopardy">

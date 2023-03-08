@@ -180,6 +180,20 @@
   filter: none;
 }
 
+@media screen and (max-width:600px) {
+  #logo2 {
+    width: 9rem;
+    padding: 1rem;
+    filter: none;
+  }
+
+  #logo3 {
+    width: 9rem;
+    padding: 1rem;
+    filter: none;
+  }
+}
+
 /* NAVBARS */
 
 #navbar {
@@ -1209,6 +1223,15 @@ section.section2 {
   }
 
   .sec5 {
+    /* display: none; */
+    transform: translateY(0) scale(1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    animation: scaleAnim 1s ease-in-out;
+    color: white;
+  }
+
+  .sec6 {
     /* display: none; */
     transform: translateY(0) scale(1);
     padding-left: 1rem;

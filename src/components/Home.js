@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Home() {
   function toggle() {
@@ -604,7 +603,7 @@ function Home() {
                 <span className="bg-text2">crypto</span>
               </h2>
             </div>
-            {/* <div className="project-container"> */}
+
             <div className="about-container-2">
               <div className="left-about-3">
                 <h4 className="about-header">
@@ -775,7 +774,6 @@ function Home() {
                 </div>
               </div>
             </div>
-            {/* </div> */}
           </div>
         </section>
         <section id="musicmatch" className="section sec6 musicmatch">
@@ -786,8 +784,7 @@ function Home() {
                 <span className="bg-text2">music</span>
               </h2>
             </div>
-            {/* <div className="project-container"></div> */}
-            {/* <div className="project-container"> */}
+
             <div className="about-container-2">
               <div className="left-about-3">
                 <h4 className="about-header">
@@ -975,7 +972,6 @@ function Home() {
                 </div>
               </div>
             </div>
-            {/* </div> */}
           </div>
         </section>
         <section id="jeopardy" className="section sec7 jeopardy">
@@ -1159,7 +1155,6 @@ function Home() {
           </div>
         </section>
       </div>
-
       <div id="toggle" onClick={toggle}></div>
       <div id="controls" className="controls">
         <div className="control control-1 active-btn" id="home" onClick={displayHome}>

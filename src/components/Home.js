@@ -779,7 +779,7 @@ function Home() {
         </section>
         <section id="musicmatch" className="section sec6 musicmatch">
           <div>
-            <div className="main-title">
+            <div className="main-title-3">
               <h2>
                 Music <span className="bg-text">match</span>
                 <span className="bg-text2">music</span>

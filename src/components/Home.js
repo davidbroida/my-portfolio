@@ -438,6 +438,7 @@ function Home() {
                 Immersion Program).
               </p>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
         <section id="portfolio" className="section sec3 portfolio">

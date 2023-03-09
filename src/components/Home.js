@@ -1138,7 +1138,7 @@ function Home() {
                 to highlight my skills as a React.js Developer.
               </p>
             </div>
-            <div className="btn-container-3">
+            <div className="btn-container-7">
               <a onClick={callAlert} className="main-btn">
                 <span className="btn-text">Visit Website</span>
                 <span className="btn-icon">

@@ -1395,6 +1395,15 @@ section.section2 {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.btn-container-7 {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  justify-content: center;
+  margin-left: 5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 .about-stats h4 {
   display: flex;
@@ -1517,6 +1526,17 @@ section.section2 {
     margin-left: 0rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .btn-container-7 {
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
   }
 
@@ -1887,6 +1907,7 @@ section.section2 {
   overflow: hidden;
   text-decoration: none;
 }
+
 
 .main-btn-2 {
   border-radius: 30px;

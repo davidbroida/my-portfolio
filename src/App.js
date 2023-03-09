@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
 import Routes from './components/Routes';
 import Navbar from './components/Navbar';
 
@@ -19,7 +18,8 @@ function App() {
 window.onload = pageTransition;
 
 function pageTransition() {
-  // button click activate button class and activate/ deactivate sections
+  // Button click activate button class and activate/ deactivate sections
+
   const sections = document.querySelectorAll('.section');
   const sectBtn = document.querySelectorAll('.control');
   const navlinks = document.querySelectorAll('.navlink');
@@ -44,11 +44,12 @@ function pageTransition() {
     });
   }
 
+  // Toggle between sections on navlink clicks
+
   for (let i = 0; i < navlinks.length; i++) {
     navlinks[i].addEventListener('click', (e) => {
       let targetClass = e.target.className;
       let targetSection = document.getElementById(targetClass);
-      // console.log(targetSection);
       sections.forEach((section) => {
         section.classList.remove('active');
       });
@@ -56,6 +57,8 @@ function pageTransition() {
       document.querySelector(`#${targetClass}`).scrollTo(0, 0);
     });
   }
+
+  // Zoom in and out of code images on click
 
   aboutImg.forEach((img) => {
     img.addEventListener('click', (e) => {

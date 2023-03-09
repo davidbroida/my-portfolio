@@ -17,10 +17,6 @@ function Home() {
     });
   }
 
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  };
-
   function randomRGB() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -40,7 +36,7 @@ function Home() {
       <div className="main-content">
         <section id="home" className="section page-header sec1 main-header active">
           <br></br>
-          <div className="btn-container-prof">
+          <div className="btn-container-home">
             <a
               href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
               className="main-btn"

@@ -519,6 +519,7 @@ function Home() {
                 </p>
               </div>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
         <section id="contact" className="section sec4 contact page-intro">

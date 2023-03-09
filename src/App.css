@@ -541,6 +541,15 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width:600px) {
+  .project-button h2 {
+    text-align: center;
+    margin-left: 12.5%;
+    margin-bottom: 0;
+  }
+}
+
+
 .project-button h2:hover {
   cursor: pointer;
   color: white;
@@ -1071,6 +1080,15 @@ span.hey {
   justify-content: center;
   text-align: center;
   margin-left: 5%;
+}
+
+@media screen and (max-width:600px) {
+  .project-logos {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 12.5%;
+  }
 }
 
 

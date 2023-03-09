@@ -1158,6 +1158,7 @@ function Home() {
                 </span>
               </a>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
       </div>

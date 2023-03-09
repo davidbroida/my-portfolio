@@ -754,7 +754,7 @@ section.section2.active {
   }
 
   .page-header h2 {
-    margin-top: 6rem;
+    margin-top: 7rem;
     font-size: 2.5rem;
   }
 
@@ -814,10 +814,12 @@ section.section2.active {
     font-weight: 700;
     color: white;
     margin-top: 8rem;
+    margin-bottom: 1rem;
     align-self: center;
     justify-content: center;
     align-items: center;
     padding-left: 1rem;
+
   }
 }
 

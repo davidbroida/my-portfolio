@@ -777,6 +777,7 @@ function Home() {
                 </div>
               </div>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
         <section id="musicmatch" className="section sec6 musicmatch">
@@ -975,6 +976,7 @@ function Home() {
                 </div>
               </div>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
         <section id="jeopardy" className="section sec7 jeopardy">
@@ -1111,6 +1113,7 @@ function Home() {
                 <img src="/jservice_api_example.png" />
               </div>
             </div>
+            <div id="footer"></div>
           </div>
         </section>
         <section id="thiswebsite" className="section sec8 thiswebsite">

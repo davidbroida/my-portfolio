@@ -72,8 +72,8 @@ function Home() {
               Full Stack Web Developer and recent graduate from Springboard&apos;s Full Stack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
               Python, SQL, APIs and fully focused on writing high quality and efficient code with an
-              emphasis on Javascript. I am also a blockchain enthusiast, have international sales
-              experience, can speak fluent Mandarin Chinese and love photography/ graphic design.
+              emphasis on Javascript. Additionally I speak fluent Mandarin Chinese, am a blockchain
+              enthusiast, have international sales experience and love graphic design/ photography.
               Currently I am working for Hexmount LLC on two Web3 projects as a Software Engineer
               Intern while looking for additional full-time employment opportunities.
             </p>

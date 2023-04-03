@@ -10,26 +10,13 @@ function Home() {
     navbar.classList.toggle('active');
     controls.classList.toggle('active');
   }
+
   function displayHome() {
     let homeElements = document.querySelectorAll('#home');
     homeElements.forEach((element) => {
       element.classList.add('active');
     });
   }
-
-  function randomRGB() {
-    const r = Math.floor(Math.random() * 256);
-    const g = Math.floor(Math.random() * 256);
-    const b = Math.floor(Math.random() * 256);
-    return `rgb(${r},${g},${b})`;
-  }
-
-  const letters = document.querySelectorAll('.letter');
-  setInterval(function () {
-    for (let letter of letters) {
-      letter.style.color = randomRGB();
-    }
-  }, 2000);
 
   return (
     <div>
@@ -85,10 +72,10 @@ function Home() {
               Full Stack Web Developer and recent graduate from Springboard&apos;s Full Stack
               Software Engineering Bootcamp. I am proficient in React.js, Node.js, Javascript,
               Python, SQL, APIs and fully focused on writing high quality and efficient code with an
-              emphasis on Javascript. I have international sales experience, love photography/
-              graphic design and can speak fluent Mandarin Chinese. Currently I am working for
-              Hexmount LLC as a Software Engineer Intern continuing to practice my skills while
-              looking for additional full-time employment opportunities.
+              emphasis on Javascript. I&apos;m a blockchain enthusiast, have international sales
+              experience, can speak fluent Mandarin Chinese and love photography/ graphic design.
+              Currently I am working for Hexmount LLC on two Web3 projects as a Software Engineer
+              Intern while looking for additional full-time employment opportunities.
             </p>
             <div className="btn-container">
               <a
@@ -111,7 +98,7 @@ function Home() {
                 <div className="prof-pic active">
                   <img
                     id="profile-pic-img"
-                    src="polaroid prof pic joke.png"
+                    src="images/polaroid prof pic joke.png"
                     className="active"></img>
                 </div>
               </div>
@@ -452,7 +439,7 @@ function Home() {
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo" src="/javascript_logo.png"></img>
+                <img id="logo" src="images/javascript_logo.png"></img>
               </div>
               <p>
                 A remake of the classic game of Jeopardy made with pure Javascript pulling data from
@@ -469,9 +456,9 @@ function Home() {
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo" src="/javascript_logo.png"></img>
-                <img id="logo" src="/python_logo.png"></img>
-                <img id="logo" src="/flask_logo_white.png"></img>
+                <img id="logo" src="images/javascript_logo.png"></img>
+                <img id="logo" src="images/python_logo.png"></img>
+                <img id="logo" src="images/flask_logo_white.png"></img>
               </div>
               <p>
                 Designed and built a cryptocurrency web app with a Python/Flask back-end and a
@@ -486,8 +473,8 @@ function Home() {
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo6" src="/react_logo.png"></img>
-                <img id="logo6" src="/nodejs_logo2.png"></img>
+                <img id="logo6" src="images/react_logo.png"></img>
+                <img id="logo6" src="images/nodejs_logo2.png"></img>
               </div>
               <p>
                 Created a full-stack web app which helps expedite and expand the discovery of new
@@ -504,8 +491,8 @@ function Home() {
                 </div>
               </div>
               <div className="project-logos">
-                <img id="logo2" src="/HTMLCSSJS_logo.png"></img>
-                <img id="logo6" src="/react_logo.png"></img>
+                <img id="logo2" src="images/HTMLCSSJS_logo.png"></img>
+                <img id="logo6" src="images/react_logo.png"></img>
               </div>
               <div className="this-website-desc">
                 <p>
@@ -617,9 +604,9 @@ function Home() {
                   news feed and dynamic charts from Apex Charts which are plugged into and powered
                   by the CryptoCompare API.
                 </p>
-                <img id="desktop" src="/cryptocrunch_mock.png"></img>
+                <img id="desktop" src="images/cryptocrunch_mock.png"></img>
 
-                <div className="btn-container-5">
+                {/* <div className="btn-container-5">
                   <a
                     href="https://cryptocrunch2.herokuapp.com/ "
                     className="main-btn"
@@ -630,7 +617,7 @@ function Home() {
                       <i className="fa-solid fa-desktop"></i>
                     </span>
                   </a>
-                </div>
+                </div> */}
                 <div className="btn-container-4">
                   <a
                     href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"
@@ -647,9 +634,9 @@ function Home() {
               <div className="right-about-2">
                 <div className="about-item">
                   <div className="project-item">
-                    <img id="logo5" src="/javascript_logo.png"></img>
-                    <img id="logo5" src="/python_logo.png"></img>
-                    <img id="logo5" src="/flask_logo_white.png"></img>
+                    <img id="logo5" src="images/javascript_logo.png"></img>
+                    <img id="logo5" src="images/python_logo.png"></img>
+                    <img id="logo5" src="images/flask_logo_white.png"></img>
                     <p className="small-text">
                       - Built With<br></br>Javascript, Python & the Flask Framework
                     </p>
@@ -657,7 +644,7 @@ function Home() {
                 </div>
                 <div className="about-item">
                   <div className="project-item4">
-                    <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
+                    <img id="logo3" src="images/jsonwebtokenlogo.png" alt="" />
                     <p className="small-text">
                       - JSON Web Token<br></br>Authorization
                     </p>
@@ -665,7 +652,7 @@ function Home() {
                 </div>
                 <div className="about-item">
                   <div className="project-item2">
-                    <img id="logo3" src="/cryptocomparelogo.png"></img>
+                    <img id="logo3" src="images/cryptocomparelogo.png"></img>
                     <p className="small-text">
                       - Cryptocompare<br></br> API Integration
                     </p>
@@ -673,7 +660,7 @@ function Home() {
                 </div>
                 <div className="about-item">
                   <div className="project-item3">
-                    <img id="logo2" src="/apex-charts-logo.png" />
+                    <img id="logo2" src="images/apex-charts-logo.png" />
                     <p className="small-text">
                       - Live charting<br></br>from Apex Charts
                     </p>
@@ -705,10 +692,14 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img5" className="proj-desc-img" src="API_CryptoCrunch_screenshot.png" />
+                  <img
+                    id="img5"
+                    className="proj-desc-img"
+                    src="images/API_CryptoCrunch_screenshot.png"
+                  />
                 </div>
                 <div className="img5 proj-desc-img-zoomed">
-                  <img src="API_CryptoCrunch_screenshot.png" />
+                  <img src="images/API_CryptoCrunch_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -726,10 +717,14 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img6" className="proj-desc-img" src="/bcrypt_auth_screenshot.png" />
+                  <img
+                    id="img6"
+                    className="proj-desc-img"
+                    src="images/bcrypt_auth_screenshot.png"
+                  />
                 </div>
                 <div className="img6 proj-desc-img-zoomed">
-                  <img src="/bcrypt_auth_screenshot.png" />
+                  <img src="images/bcrypt_auth_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -747,10 +742,10 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img7" className="proj-desc-img" src="/apexcharts_screenshot.png" />
+                  <img id="img7" className="proj-desc-img" src="images/apexcharts_screenshot.png" />
                 </div>
                 <div className="img7 proj-desc-img-zoomed">
-                  <img src="/apexcharts_screenshot.png" />
+                  <img src="images/apexcharts_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -768,10 +763,10 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img8" className="proj-desc-img" src="/testing_screenshot.png" />
+                  <img id="img8" className="proj-desc-img" src="images/testing_screenshot.png" />
                 </div>
                 <div className="img8 proj-desc-img-zoomed">
-                  <img src="/testing_screenshot.png" />
+                  <img src="images/testing_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -801,9 +796,9 @@ function Home() {
                   because of it&apos;s clean, React.js architecture and codebase along with having
                   user authorization and authentication for signup and login.
                 </p>
-                <img id="desktop" src="/musicMatch_mock.png"></img>
+                <img id="desktop" src="images/musicMatch_mock.png"></img>
 
-                <div className="btn-container-5">
+                {/* <div className="btn-container-5">
                   <a
                     href="https://musicmatchapp.herokuapp.com/"
                     className="main-btn"
@@ -814,7 +809,7 @@ function Home() {
                       <i className="fa-solid fa-desktop"></i>
                     </span>
                   </a>
-                </div>
+                </div> */}
                 <div className="btn-container-4">
                   <a
                     href="https://github.com/davidbroida/Music-Match-App"
@@ -831,8 +826,8 @@ function Home() {
               <div className="right-about-2">
                 <div className="about-item">
                   <div className="project-item">
-                    <img id="logo5" src="/react_logo.png"></img>
-                    <img id="logo5" src="/nodejs_logo2.png"></img>
+                    <img id="logo5" src="images/react_logo.png"></img>
+                    <img id="logo5" src="images/nodejs_logo2.png"></img>
                     <p className="small-text">
                       - Built With<br></br>React.js & Node.js
                     </p>
@@ -840,7 +835,7 @@ function Home() {
                 </div>
                 <div className="about-item">
                   <div className="project-item4">
-                    <img id="logo3" src="jsonwebtokenlogo.png" alt="" />
+                    <img id="logo3" src="images/jsonwebtokenlogo.png" alt="" />
                     <p className="small-text">
                       - JSON Web Token<br></br>Authorization
                     </p>
@@ -848,7 +843,7 @@ function Home() {
                 </div>
                 <div className="about-item">
                   <div className="project-item2">
-                    <img id="logo2" src="/spotify_logo2-transparent.png"></img>
+                    <img id="logo2" src="images/spotify_logo2-transparent.png"></img>
                     <p className="small-text">
                       - Spotify Web <br></br>API Integration
                     </p>
@@ -893,11 +888,11 @@ function Home() {
                   <img
                     id="img1"
                     className="proj-desc-img"
-                    src="/react_architecture_screenshot_xxs.png"
+                    src="images/react_architecture_screenshot_xxs.png"
                   />
                 </div>
                 <div className="img1 proj-desc-img-zoomed">
-                  <img src="/react_architecture_screenshot.png" />
+                  <img src="images/react_architecture_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -920,11 +915,11 @@ function Home() {
                   <img
                     id="img2"
                     className="proj-desc-img"
-                    src="/musicMatch_webtoken_screenshot.png"
+                    src="images/musicMatch_webtoken_screenshot.png"
                   />
                 </div>
                 <div className="img2 proj-desc-img-zoomed">
-                  <img src="/musicMatch_webtoken_screenshot.png" />
+                  <img src="images/musicMatch_webtoken_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -945,10 +940,14 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img3" className="proj-desc-img" src="/spotify_api_screenshot.png" />
+                  <img
+                    id="img3"
+                    className="proj-desc-img"
+                    src="images/spotify_api_screenshot.png"
+                  />
                 </div>
                 <div className="img3 proj-desc-img-zoomed">
-                  <img src="/spotify_api_screenshot.png" />
+                  <img src="images/spotify_api_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -967,10 +966,14 @@ function Home() {
               </div>
               <div className="project-desc-right">
                 <div className="desc-img-container">
-                  <img id="img4" className="proj-desc-img" src="/useAuthHook_screenshot.png" />
+                  <img
+                    id="img4"
+                    className="proj-desc-img"
+                    src="images/useAuthHook_screenshot.png"
+                  />
                 </div>
                 <div className="img4 proj-desc-img-zoomed">
-                  <img src="/useAuthHook_screenshot.png" />
+                  <img src="images/useAuthHook_screenshot.png" />
                 </div>
               </div>
             </div>
@@ -996,7 +999,7 @@ function Home() {
                 CSS. The original project was a timed challenge via. Springboard which I redesigned
                 recently to fix bugs, smooth out API calls and re-style with CSS.
               </p>
-              <img id="desktop" src="/jeopardy_mockup.png"></img>
+              <img id="desktop" src="images/jeopardy_mockup.png"></img>
 
               <div className="btn-container-5">
                 <a
@@ -1027,7 +1030,7 @@ function Home() {
             <div className="right-about-2">
               <div className="about-item">
                 <div className="project-item">
-                  <img id="logo4" src="/javascript_logo.png"></img>
+                  <img id="logo4" src="images/javascript_logo.png"></img>
                   <p className="small-text">
                     - App Made With<br></br>Purely Javascript
                   </p>
@@ -1035,7 +1038,7 @@ function Home() {
               </div>
               <div className="about-item">
                 <div className="project-item4">
-                  <img id="logo3" src="/jservice_api_logo.png" alt="" />
+                  <img id="logo3" src="images/jservice_api_logo.png" alt="" />
                   <p className="small-text">
                     - JService API <br></br>Integration
                   </p>
@@ -1084,10 +1087,10 @@ function Home() {
             </div>
             <div className="project-desc-right">
               <div className="desc-img-container">
-                <img id="img9" className="proj-desc-img" src="/javascript_oop_example.png" />
+                <img id="img9" className="proj-desc-img" src="images/javascript_oop_example.png" />
               </div>
               <div className="img9 proj-desc-img-zoomed">
-                <img src="/javascript_oop_example.png" />
+                <img src="images/javascript_oop_example.png" />
               </div>
             </div>
           </div>
@@ -1106,10 +1109,10 @@ function Home() {
             </div>
             <div className="project-desc-right">
               <div className="desc-img-container">
-                <img id="img10" className="proj-desc-img" src="/jservice_api_example.png" />
+                <img id="img10" className="proj-desc-img" src="images/jservice_api_example.png" />
               </div>
               <div className="img10 proj-desc-img-zoomed">
-                <img src="/jservice_api_example.png" />
+                <img src="images/jservice_api_example.png" />
               </div>
             </div>
             <div id="footer"></div>
@@ -1125,9 +1128,7 @@ function Home() {
           <div className="project-container2">
             <div className="page-desc">
               <div className="project-logos">
-                <img id="logo2" src="/HTMLCSSJS_logo.png"></img>
-                {/* <img id="logo" src="/python_logo.png"></img>
-                <img id="logo" src="/flask_logo_white.png"></img> */}
+                <img id="logo2" src="images/HTMLCSSJS_logo.png"></img>
               </div>
               <p>
                 I designed and built this website from scratch using HTML, CSS and Javascript. At

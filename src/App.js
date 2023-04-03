@@ -18,13 +18,27 @@ function App() {
 window.onload = pageTransition;
 
 function pageTransition() {
-  // Button click activate button class and activate/ deactivate sections
-
   const sections = document.querySelectorAll('.section');
   const sectBtn = document.querySelectorAll('.control');
   const navlinks = document.querySelectorAll('.navlink');
   const aboutImg = document.querySelectorAll('.desc-img-container');
   const largeImg = document.querySelectorAll('.proj-desc-img-zoomed');
+
+  // toggle between sections on primary navbar clicks
+
+  for (let i = 0; i < navlinks.length; i++) {
+    navlinks[i].addEventListener('click', (e) => {
+      let targetClass = e.target.className;
+      let targetSection = document.getElementById(targetClass);
+      sections.forEach((section) => {
+        section.classList.remove('active');
+      });
+      targetSection.classList.add('active');
+      document.querySelector(`#${targetClass}`).scrollTo(0, 0);
+    });
+  }
+
+  // toggle between sections on secondary drop down navbar clicks
 
   for (let i = 0; i < sectBtn.length; i++) {
     sectBtn[i].addEventListener('click', function (e) {
@@ -44,21 +58,7 @@ function pageTransition() {
     });
   }
 
-  // Toggle between sections on navlink clicks
-
-  for (let i = 0; i < navlinks.length; i++) {
-    navlinks[i].addEventListener('click', (e) => {
-      let targetClass = e.target.className;
-      let targetSection = document.getElementById(targetClass);
-      sections.forEach((section) => {
-        section.classList.remove('active');
-      });
-      targetSection.classList.add('active');
-      document.querySelector(`#${targetClass}`).scrollTo(0, 0);
-    });
-  }
-
-  // Zoom in and out of code images on click
+  // zoom in and out of code images on porfolio project pages on click
 
   aboutImg.forEach((img) => {
     img.addEventListener('click', (e) => {
@@ -83,6 +83,8 @@ function pageTransition() {
     });
   });
 
+  // random RGB generator for the programming languages on homepage chaning colors
+
   function randomRGB() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -98,6 +100,7 @@ function pageTransition() {
   }, 1000);
 }
 
+// pop-up alert used on the "This Website" section of my porfolio which alerts the user that they are already on this website
 window.alert = function (message, timeout = null) {
   const alert = document.createElement('div');
   const alertButton = document.createElement('button');

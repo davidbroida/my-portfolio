@@ -94,6 +94,8 @@
 
 }
 
+/* Animation for page transitions dropping down like a curtain */
+
 @keyframes scaleAnim {
   0% {
     transform: translateY(-100%) scaleY(0);
@@ -101,6 +103,43 @@
 
   100% {
     transform: translateY(0) scaleY(1);
+  }
+}
+
+/* SECTIONS */
+
+section {
+  display: none;
+  height: 100vh;
+  padding-left: 4rem;
+  overflow-y: auto;
+  word-wrap: break-word;
+  overscroll-behavior: contain;
+}
+
+section.section2 {
+  display: none;
+  height: 50vh;
+  padding-left: 4rem;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+section.section2.active {
+  display: block;
+  height: 60vh;
+  padding-left: 4rem;
+  overflow-y: visible;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width:600px) {
+  section {
+    padding-left: .5rem;
+  }
+
+  section.section2.active {
+    height: 90vh;
   }
 }
 
@@ -169,6 +208,20 @@
   filter: none;
 }
 
+@media screen and (max-width:600px) {
+  #logo2 {
+    width: 9rem;
+    padding: 1rem;
+    filter: none;
+  }
+
+  #logo3 {
+    width: 9rem;
+    padding: 1rem;
+    filter: none;
+  }
+}
+
 /* NAVBARS */
 
 #navbar {
@@ -190,19 +243,7 @@
   z-index: 10;
 }
 
-@media screen and (max-width:600px) {
-  #logo2 {
-    width: 9rem;
-    padding: 1rem;
-    filter: none;
-  }
 
-  #logo3 {
-    width: 9rem;
-    padding: 1rem;
-    filter: none;
-  }
-}
 
 @media screen and (max-width:600px) {
   #navbar {
@@ -426,6 +467,23 @@
   }
 }
 
+.control:hover {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: rgb(254, 116, 62);
+  border-radius: 50%;
+  margin: .7rem 0;
+  transition: all .4s ease-in-out;
+}
+
+.control i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+/* Page descriptions */
+
 .page-desc {
   font-family: 'SquareFont';
   text-decoration: none;
@@ -435,10 +493,6 @@
   margin: 20px 0 54px 50px;
   overflow: hidden;
   float: left;
-}
-
-.contact-table {
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .page-desc p {
@@ -506,19 +560,10 @@
   }
 }
 
-.control:hover {
-  padding: 1rem;
-  cursor: pointer;
-  background-color: rgb(254, 116, 62);
-  border-radius: 50%;
-  margin: .7rem 0;
-  transition: all .4s ease-in-out;
+.contact-table {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.control i {
-  font-size: 1.2rem;
-  color: white;
-}
 
 .project-button a {
   text-decoration: none;
@@ -558,40 +603,7 @@
   font-size: 2.5rem;
 }
 
-section {
-  display: none;
-  height: 100vh;
-  padding-left: 4rem;
-  overflow-y: auto;
-  word-wrap: break-word;
-  overscroll-behavior: contain;
-}
 
-section.section2 {
-  display: none;
-  height: 50vh;
-  padding-left: 4rem;
-  overflow-y: auto;
-  word-wrap: break-word;
-}
-
-section.section2.active {
-  display: block;
-  height: 60vh;
-  padding-left: 4rem;
-  overflow-y: visible;
-  word-wrap: break-word;
-}
-
-@media screen and (max-width:600px) {
-  section {
-    padding-left: .5rem;
-  }
-
-  section.section2.active {
-    height: 90vh;
-  }
-}
 
 .homepage-about {
   display: block;
@@ -1925,9 +1937,6 @@ section.section2 {
   border-color: black;
 }
 
-.with-love {
-  padding-top: 10px;
-}
 
 #linkedin-icn {
   color: rgb(82, 82, 248);

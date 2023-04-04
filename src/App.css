@@ -172,6 +172,8 @@ section.section2.active {
   animation: loading 0.75s ease infinite;
 }
 
+
+
 @keyframes loading {
   from {
     transform: rotate(0turn);
@@ -541,7 +543,7 @@ section.section2.active {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 0px 0px9;
   overflow: hidden;
   float: left;
   padding-bottom: 1rem;
@@ -954,7 +956,7 @@ section.section2.active {
   background-color: black;
 }
 
-.this-website-desc p {
+.this-website-page-desc p {
   margin-bottom: 100px;
 }
 

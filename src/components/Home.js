@@ -512,7 +512,7 @@ function Home() {
                 <img id="logo2" src="images/HTMLCSSJS_logo.png"></img>
                 <img id="logo6" src="images/react_logo.png"></img>
               </div>
-              <div className="this-website-desc">
+              <div className="this-website-page-desc">
                 <p>
                   The website you are on right now. I created this site from scratch using HMTL CSS
                   and Javascript in React JS. I built the site from scatch so that it can serve as
@@ -624,7 +624,7 @@ function Home() {
                 </p>
                 <img id="desktop" src="images/cryptocrunch_mock.png"></img>
 
-                {/* <div className="btn-container-5">
+                <div className="btn-container-5">
                   <a
                     href="https://cryptocrunch2.herokuapp.com/ "
                     className="main-btn"
@@ -635,7 +635,7 @@ function Home() {
                       <i className="fa-solid fa-desktop"></i>
                     </span>
                   </a>
-                </div> */}
+                </div>
                 <div className="btn-container-4">
                   <a
                     href="https://github.com/davidbroida/Crypto-Crunch-App/tree/main/capstone_1"

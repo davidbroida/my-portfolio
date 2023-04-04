@@ -110,9 +110,15 @@ function Home() {
                 <div className="links">
                   <p>
                     <b>
-                      <i id="linkedin-icn" className="fa-brands fa-linkedin-in">
-                        {' '}
-                      </i>
+                      <a
+                        href="https://www.linkedin.com/in/davidbroida/"
+                        target="_blank"
+                        rel="noreferrer">
+                        <i id="linkedin-icn" className="fa-brands fa-linkedin-in">
+                          {' '}
+                        </i>{' '}
+                      </a>
+
                       <a
                         href="https://www.linkedin.com/in/davidbroida/"
                         target="_blank"
@@ -124,7 +130,10 @@ function Home() {
                   </p>
                   <p>
                     <b>
-                      <i id="github-icn" className="fa-brands fa-github"></i>{' '}
+                      {' '}
+                      <a href="https://github.com/davidbroida" target="_blank" rel="noreferrer">
+                        <i id="github-icn" className="fa-brands fa-github"></i>
+                      </a>{' '}
                       <a href="https://github.com/davidbroida" target="_blank" rel="noreferrer">
                         GitHub
                       </a>
@@ -132,7 +141,12 @@ function Home() {
                   </p>
                   <p>
                     <b>
-                      <i id="gmail-icn" className="fa-sharp fa-solid fa-g"></i>{' '}
+                      <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=davidcbroida@gmail.com"
+                        target="_blank"
+                        rel="noreferrer">
+                        <i id="gmail-icn" className="fa-sharp fa-solid fa-g"></i>
+                      </a>{' '}
                       <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=davidcbroida@gmail.com"
                         target="_blank"

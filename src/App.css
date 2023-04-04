@@ -143,6 +143,46 @@ section.section2.active {
   }
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgb(69, 69, 69), black);
+  transition: opacity 0.75s, visibility 0.75s;
+  z-index: 10;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: orange;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
 /* Download CV Buttons */
 
 .btn-container {
@@ -311,13 +351,12 @@ section.section2.active {
 
 .navlink h2.cryptocrunch {
   text-decoration: underline;
-
-  color: rgb(38, 216, 22);
+  color: orange;
 }
 
 .navlink h2.musicmatch {
   text-decoration: underline;
-  color: orange;
+  color: rgb(38, 216, 22);
 }
 
 .navlink h2.thiswebsite {
@@ -350,7 +389,7 @@ section.section2.active {
   right: 3.8%;
   display: flex;
   flex-direction: column;
-  z-index: 11;
+  z-index: 9;
   position: fixed;
   width: 45px;
   height: 65px;

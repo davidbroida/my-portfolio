@@ -21,8 +21,10 @@ function Home() {
   return (
     <div>
       <div className="main-content">
+        <div className="loader"></div>
         <section id="home" className="section page-header sec1 main-header active">
           <br></br>
+
           <div className="btn-container-home">
             <a
               href="https://drive.google.com/file/d/1Bl-pZ9hqcxZ6hucMJUC5-I5HEchSwZEK/view?usp=sharing"
@@ -44,7 +46,7 @@ function Home() {
 
             <h4>
               <span id="header" className="letter">
-                React.js <span> · </span>
+                React JS <span> · </span>
               </span>
               <span id="header" className="letter">
                 Node.js <span> · </span>
@@ -161,7 +163,7 @@ function Home() {
                 Full Stack Web Developer, world traveler and Mandarin Chinese expert born and raised
                 in Maine, USA currently living in Bali, Indonesia. <br></br>
                 <br></br>Recent graduate of Springboard&apos;s 800+ hour Full Stack Software
-                Engineering Bootcamp. Proficient in React.js, Node.js, Python, Javascript, SQL,
+                Engineering Bootcamp. Proficient in React JS, Node.js, Python, Javascript, SQL,
                 APIs, HTML and CSS.<br></br>
                 <br></br> I love learning, taking on new challenges and pushing myself to reach my
                 highest potential. As a Software Developer I am always looking for new opportunities
@@ -219,7 +221,7 @@ function Home() {
             <h4 className="stat-title">My Skills</h4>
             <div className="progress-bars">
               <div className="progress-bar">
-                <p className="progress-title">React.js</p>
+                <p className="progress-title">React JS</p>
                 <div className="progress-container">
                   <p className="progress-text">75%</p>
                   <div className="progress">
@@ -305,7 +307,7 @@ function Home() {
               </h5>
               <p>
                 Working alongside the CEO and Founder on a cryptocurrency monitoring application
-                with a React.js frontend and a Node.js backend using Alchemy. Also working on a
+                with a React JS frontend and a Node.js backend using Alchemy. Also working on a
                 second ERC721 NFT project, developing the frontend with on chain staking functions
                 gaining exposure to the project development lifecycle and writing Solidity ERC20 and
                 ERC721 smart contracts on the Ethereum blockchain.
@@ -339,7 +341,7 @@ function Home() {
                 Springboard Software Engineering Bootcamp <span> - Student</span>
               </h5>
               <p>
-                React.js | JavaScript | Python & Flask | SQL & PostgresQL | Node.js & Express | HTML
+                React JS | JavaScript | Python & Flask | SQL & PostgresQL | Node.js & Express | HTML
                 & CSS
                 <br></br>
                 <br></br>
@@ -432,23 +434,7 @@ function Home() {
                 <span className="bg-text2">Portfolio</span>
               </h2>
             </div>
-            <div className="page-desc">
-              <div className="project-button">
-                <div className="navlink">
-                  <h2 className="jeopardy">JavaScript Jeopardy</h2>
-                </div>
-              </div>
-              <div className="project-logos">
-                <img id="logo" src="images/javascript_logo.png"></img>
-              </div>
-              <p>
-                A remake of the classic game of Jeopardy made with pure Javascript pulling data from
-                the JService API. The architecture and logic behind the Javascript codebase is
-                slightly more complicated than one may expect. I chose to include it as a portfolio
-                piece because it was a project that I have completed twice now. Once as a challenge
-                for Springboard and once as a fun practice project for myself.
-              </p>
-            </div>
+
             <div className="page-desc">
               <div className="project-button">
                 <div className="navlink">
@@ -478,12 +464,28 @@ function Home() {
               </div>
               <p>
                 Created a full-stack web app which helps expedite and expand the discovery of new
-                music. Built with a React.js front-end and a Node.js back-end, the app allows users
+                music. Built with a React JS front-end and a Node.js back-end, the app allows users
                 to search for music, create playlists and discover new tunes based on
                 recommendations from Spotify’s powerful web API.
               </p>
             </div>
-
+            <div className="page-desc">
+              <div className="project-button">
+                <div className="navlink">
+                  <h2 className="jeopardy">JavaScript Jeopardy</h2>
+                </div>
+              </div>
+              <div className="project-logos">
+                <img id="logo" src="images/javascript_logo.png"></img>
+              </div>
+              <p>
+                A remake of the classic game of Jeopardy made with pure Javascript pulling data from
+                the JService API. The architecture and logic behind the Javascript codebase is
+                slightly more complicated than one may expect. I chose to include it as a portfolio
+                piece because it was a project that I have completed twice now. Once as a challenge
+                for Springboard and once as a fun practice project for myself.
+              </p>
+            </div>
             <div className="page-desc">
               <div className="project-button">
                 <div className="navlink">
@@ -497,7 +499,7 @@ function Home() {
               <div className="this-website-desc">
                 <p>
                   The website you are on right now. I created this site from scratch using HMTL CSS
-                  and Javascript in React.js. I built the site from scatch so that it can serve as
+                  and Javascript in React JS. I built the site from scatch so that it can serve as
                   an ongoing project which I plan to continually improve and use to learn/ practice.
                 </p>
               </div>
@@ -790,10 +792,10 @@ function Home() {
 
                 <p>
                   Created a full-stack web app which helps expedite and expand the discovery of new
-                  music. Built with a React.js front-end and a Node.js back-end, the app allows
+                  music. Built with a React JS front-end and a Node.js back-end, the app allows
                   users to search for music, create playlists and discover new tunes based on
                   recommendations from Spotify’s powerful web API. I&apos;m proud of this project
-                  because of it&apos;s clean, React.js architecture and codebase along with having
+                  because of it&apos;s clean, React JS architecture and codebase along with having
                   user authorization and authentication for signup and login.
                 </p>
                 <img id="desktop" src="images/musicMatch_mock.png"></img>
@@ -829,7 +831,7 @@ function Home() {
                     <img id="logo5" src="images/react_logo.png"></img>
                     <img id="logo5" src="images/nodejs_logo2.png"></img>
                     <p className="small-text">
-                      - Built With<br></br>React.js & Node.js
+                      - Built With<br></br>React JS & Node.js
                     </p>
                   </div>
                 </div>
@@ -873,7 +875,7 @@ function Home() {
                   Application <span>Architecture</span>
                 </h4>
                 <p className="code-desc">
-                  This is an example of the React.js code that was used to create the overall
+                  This is an example of the React JS code that was used to create the overall
                   architecture of the app. The code also demonstrates basic use of React hooks and
                   JSON Web Tokens to manage state (the React hooks) authorization and authentication
                   (JSON Web Token). This made it relatively easy for me to write the code which
@@ -1133,9 +1135,9 @@ function Home() {
               <p>
                 I designed and built this website from scratch using HTML, CSS and Javascript. At
                 the moment there are some issues that I think could easily be solved using state so
-                in the near future my plan is to refactor the code and turn it into a true React.js
+                in the near future my plan is to refactor the code and turn it into a true React JS
                 app. This should not only be an easy fix to some of the bugs, but should also serve
-                to highlight my skills as a React.js Developer.
+                to highlight my skills as a React Developer.
               </p>
             </div>
             <div className="btn-container-7">

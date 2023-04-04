@@ -15,6 +15,20 @@ function App() {
   );
 }
 
+// Have a loading spinner display for two seconds before page is shown
+const pageLoad = new Promise((resolve) => {
+  window.addEventListener('load', resolve);
+});
+// promise that resolves after 2 seconds
+const delayTimeout = new Promise((resolve) => {
+  setTimeout(resolve, 2000);
+});
+// wait for both pageload and delaytimeout to resolve and then show the page
+Promise.all([pageLoad, delayTimeout]).then(() => {
+  const loader = document.querySelector('.loader');
+  loader.classList.add('loader-hidden');
+});
+
 window.onload = pageTransition;
 
 function pageTransition() {

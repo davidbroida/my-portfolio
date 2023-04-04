@@ -622,7 +622,7 @@ function Home() {
                   news feed and dynamic charts from Apex Charts which are plugged into and powered
                   by the CryptoCompare API.
                 </p>
-                <img id="desktop" src="images/cryptocrunch_mock.png"></img>
+                <img id="desktop" src="images/cryptocrunch_mock_desk_and_mobile.png"></img>
 
                 <div className="btn-container-5">
                   <a

@@ -320,11 +320,13 @@ function Home() {
                 <p></p>
               </h5>
               <p>
-                Working alongside the CEO and Founder on a cryptocurrency monitoring application
-                with a React JS frontend and a Node.js backend using Alchemy. Also working on a
-                second ERC721 NFT project, developing the frontend with on chain staking functions
-                gaining exposure to the project development lifecycle and writing Solidity ERC20 and
-                ERC721 smart contracts on the Ethereum blockchain.
+                Working on two projects alongside the CEO and Founder with a focus on writing high
+                quality efficient Javascript code for cryptocurrency projects. The first project is
+                an NFT project&apos;s front end build. The second is a cryptocurrency monitoring
+                application with a React JS front end and a Node.js backend which listens for events
+                on the blockchain by making API calls to Alchemy, returning JSON and interpreting
+                which events were approval events so those events can be displayed on the front end
+                of the application.
               </p>
             </div>
             <div className="timeline-item">
